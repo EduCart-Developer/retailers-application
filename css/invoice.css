@@ -1,0 +1,10 @@
+#invoice {
+    text-align: center;
+  }
+  
+#invoice canvas{
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 60%;
+  }
+  

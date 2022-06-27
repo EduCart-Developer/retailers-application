@@ -1,0 +1,116 @@
+body{
+  background-color: aliceblue;
+}
+
+
+.card-body{
+    position: relative;
+}
+
+.bookTitle
+{
+    text-align: center;
+}
+
+
+
+.bookPrice
+{    
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 5%;
+}
+
+
+/* //Designing the rows */
+.productRow
+{
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .col{
+        margin: auto;
+    }
+  }
+
+
+  /* Filters  */
+  .filters
+  {
+    margin:0 30px;
+    padding: 10px;
+  }
+
+  option
+  {
+    height: 80px;
+  }
+
+  @media only screen and (max-width: 600px)
+  {
+    .filters
+    {
+        display: inline-block;
+        
+        margin: 10px 10px;
+    }
+  }
+
+  
+  /* cart div */
+
+  #checkout
+  {
+    background-color: aliceblue;
+    width: 350px;
+    height: 600px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scroll-behavior: auto;
+    position: absolute;
+    top:11%;
+    right: 1%;
+  }
+
+  #checkoutHeading{
+    font-weight: 700;
+  }
+
+
+  #invoiceButton
+  {
+    position: absolute;
+    right:5%;
+  }
+
+  #checkoutBtn
+  {
+    position: absolute;
+    right: 13%;
+  }
+
+
+  @media only screen and (max-width: 600px)
+  {
+    
+
+  #invoiceButton
+  {
+    position: absolute;
+    right:17%;
+  }
+
+  #checkoutBtn
+  {
+    position: absolute;
+    right: 40%;
+  }
+
+  }
