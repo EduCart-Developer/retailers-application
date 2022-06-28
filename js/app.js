@@ -1,15 +1,15 @@
 // const { response } = require("express");
 
 // sessionStorage.clear();
-let books ;
+let booksItem ;
 
 // fetching the books from the database
 fetch("https://educart-book-api.herokuapp.com/api/products")
     .then(response => response.json())
     .then((data) => {
         console.log(data);
-        books = data;
-        showBooks(books);
+        booksItem = data;
+        showBooks(booksItem);
         btnAddEvent();
     })
     .catch(e => console.log(e));
@@ -116,24 +116,24 @@ let filteredBooks;
 
 //filter functions for classes
 function pickClass(value) {
-    console.log(value,books);
-    filteredBooks = books.filter((item) => {
+    console.log(value,booksItem);
+    filteredBooks = booksItem.filter((item) => {
         return (item.class === value);
     });
     showBooks(filteredBooks);
 }
 
 function pickContentType(value) {
-    console.log(value,books);
-    filteredBooks = books.filter((item) => {
+    console.log(value,booksItem);
+    filteredBooks = booksItem.filter((item) => {
         return (item.type === value);
     });
     showBooks(filteredBooks);
 }
 
 function pickSubject(value) {
-    console.log(value,books);
-    filteredBooks = books.filter((item) => {
+    console.log(value,booksItem);
+    filteredBooks = booksItem.filter((item) => {
         return (item.subject === value);
     });
     showBooks(filteredBooks);
@@ -141,8 +141,8 @@ function pickSubject(value) {
 
 function pickBoard(value)
 {
-    console.log(value,books);
-    filteredBooks = books.filter((item) => {
+    console.log(value,booksItem);
+    filteredBooks = booksItem.filter((item) => {
         return (item.board === value);
     });
     showBooks(filteredBooks);
