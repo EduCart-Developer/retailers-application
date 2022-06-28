@@ -1,16 +1,25 @@
 // const { response } = require("express");
 
 // sessionStorage.clear();
-
+let books ;
 
 // fetching the books from the database
 fetch("https://educart-book-api.herokuapp.com/api/products")
     .then(response => response.json())
     .then((data) => {
-        // console.log(data);
-        let divBook = document.getElementById("books");
-        let html = "";
-        data.forEach((book) => {
+        console.log(data);
+        books = data;
+        showBooks(books);
+        btnAddEvent();
+    })
+    .catch(e => console.log(e));
+
+
+function showBooks(data)
+{
+    let divBook = document.getElementById("books");
+    let html = "";
+    data.forEach((book) => {
             // console.log(book);
             html += `
 
@@ -41,10 +50,7 @@ fetch("https://educart-book-api.herokuapp.com/api/products")
         `;
         });
         divBook.innerHTML = html;
-        btnAddEvent();
-    })
-    .catch(e => console.log(e));
-
+}
 
 
 
@@ -106,17 +112,40 @@ function btnAddEvent() {
 
 
 
-//filter functions
+let filteredBooks;
+
+//filter functions for classes
 function pickClass(value) {
-    console.log(value);
+    console.log(value,books);
+    filteredBooks = books.filter((item) => {
+        return (item.class === value);
+    });
+    showBooks(filteredBooks);
 }
 
 function pickContentType(value) {
-    console.log(value);
+    console.log(value,books);
+    filteredBooks = books.filter((item) => {
+        return (item.type === value);
+    });
+    showBooks(filteredBooks);
 }
 
 function pickSubject(value) {
-    console.log(value);
+    console.log(value,books);
+    filteredBooks = books.filter((item) => {
+        return (item.subject === value);
+    });
+    showBooks(filteredBooks);
+}
+
+function pickBoard(value)
+{
+    console.log(value,books);
+    filteredBooks = books.filter((item) => {
+        return (item.board === value);
+    });
+    showBooks(filteredBooks);
 }
 
 
@@ -188,9 +217,6 @@ function removeProduct(element) {
     sessionStorage.setItem("books",JSON.stringify(bookArr));
     showCart();
 }
-
-
-
 
 
 
