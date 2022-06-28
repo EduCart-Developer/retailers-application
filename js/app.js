@@ -1,7 +1,7 @@
 // const { response } = require("express");
 
 // sessionStorage.clear();
-let booksItem ;
+var booksItem ;
 
 // fetching the books from the database
 fetch("https://educart-book-api.herokuapp.com/api/products")
