@@ -29,9 +29,10 @@ function showBooks(data)
             </div>
             <div class="col-3">
                 <div class="row" style="display:none; visibility:hidden;">${book.title}</div>
-                <div class="row">${book.type}</div>
-                <div class="row">${book.class}</div>
                 <div class="row">${book.subject}</div>
+                <div class="row">${book.type}</div>
+                <div class="row">Class ${book.class}</div>
+                <div class="row">SKUID-${book.skuID}</div>
             </div>
             <div class="col-2">
                 <div class="row" style="margin-bottom:10px;"><b style="padding:0;">Price</b></div>
@@ -284,6 +285,7 @@ function triggerCart() {
 
 //Showing Book in Cart
 function showCart() {
+    checkoutEmpty();
     let book = sessionStorage.getItem("books");
     if (book == null)
         bookArr = [];
@@ -336,12 +338,64 @@ function disableInvoice(e)
     let user = localStorage.getItem("User");
     if(user === null)
     {
-        e.children[0].href = "#";
-        console.log(e.children[0]);
-        e.style.backgroundColor = "grey";
-        document.getElementById("alertDiv").style.display = "inherit";
+        e.children[0].href = "./checkout.html";
+        // console.log(e.children[0]);
+        // e.style.backgroundColor = "grey";
+        // document.getElementById("alertDiv").style.display = "inherit";
         // alert("Please enter your details! Using 'Edit User Button'")
         // e.preventDefault();
     }
+    else
+    {
+        e.children[0].href = "./invoice.html";
+    }
 
+}
+
+
+
+function checkoutEmpty()
+{
+    let cart = document.getElementById("checkout");
+
+    let book = JSON.parse(sessionStorage.getItem("books"));
+    let html = "";
+    if(book == null || book.length == 0)
+    {
+        html = `
+        <p> Cart is empty!!! Please add item to proceed further</p>
+        <div id="product">
+        </div>
+        `;
+    }
+    else
+    {
+        html = `
+        <div id="checkoutHeading" class="row align-item-start my-3" style="padding: 0;padding-left: 20px;">
+        <div class="col-4" >Books</div>
+        <div class="col-3" >Quantity</div>
+        <div class="col-2" >Price</div>
+        <div class="col-2" style="display: none;">
+            <buttton class="btn btn-sm btn-danger">Remove</buttton>
+        </div>
+        </div>
+        <div id="product">
+        </div>
+        <!-- <div class="container">
+            <button class="btn btn-lg btn-primary checkoutBtn">
+                <a href="../checkout.html" style="text-decoration: none; color: white;">
+                    Proceed to checkout
+                </a>
+            </button>
+        </div> -->
+            <div id="invoiceButton">
+                <button class="btn btn-primary" onclick="disableInvoice(this)">
+                    <a href="./invoice.html" style="text-decoration: none; color: white;">
+                        Invoice
+                    </a>
+                </button>
+            </div>
+        `;
+    }
+    cart.innerHTML = html;
 }

@@ -20,20 +20,20 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">EduCart</a>    
             
-                <div id="invoiceButton">
+                <!-- <div id="invoiceButton">
                     <button class="btn btn-primary" onclick="disableInvoice(this)">
                         <a href="./invoice.html" style="text-decoration: none; color: white;">
                             Invoice
                         </a>
                     </button>
-                </div>
-                <div id="checkoutBtn">
+                </div> -->
+                <!-- <div id="checkoutBtn">
                     <button class="btn btn-primary" >
                         <a href="./checkout.html" style="text-decoration: none; color: white;">
                             Edit User
                         </a>
                     </button>
-                </div>
+                </div> -->
                 <div>
                     <p id="cartBtn" onclick="triggerCart()" class="cart" style="color:white;padding: auto;margin: auto;font-size: 20px;">Cart</p>
                 </div>
@@ -108,24 +108,7 @@
     
 
     <!-- Checkout Div -->
-    <div id ="checkout" style="display: none;">
-        <div id="checkoutHeading" class="row align-item-start my-3" style="padding: 0;padding-left: 20px;">
-            <div class="col-4" >Books</div>
-            <div class="col-3" >Quantity</div>
-            <div class="col-2" >Price</div>
-            <div class="col-2" style="display: none;">
-                <buttton class="btn btn-sm btn-danger">Remove</buttton>
-            </div>
-        </div>
-        <div id="product">
-        </div>
-        <!-- <div class="container">
-            <button class="btn btn-lg btn-primary checkoutBtn">
-                <a href="../checkout.html" style="text-decoration: none; color: white;">
-                    Proceed to checkout
-                </a>
-            </button>
-        </div> -->
+    <div id ="checkout" style="display: none;" onload="checkoutEmpty()">
     </div>
 
 </body>
