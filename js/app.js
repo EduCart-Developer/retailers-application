@@ -53,7 +53,6 @@ function showBooks(data)
 }
 
 
-
 //adding event listner to button
 function btnAddEvent() {
     let btn = document.getElementsByClassName("addBook");
@@ -113,40 +112,151 @@ function btnAddEvent() {
 
 
 let filteredBooks;
+let selectClass = "All";
+let selectBoard = "All";
+let selectType = "All";
+let selectSubject = "All";
 
 //filter functions for classes
 function pickClass(value) {
-    console.log(value,booksItem);
-    filteredBooks = booksItem.filter((item) => {
-        return (item.class === value);
-    });
-    showBooks(filteredBooks);
+    // console.log(value,booksItem);
+    selectClass = value;
+    filterBook();
 }
 
 function pickContentType(value) {
-    console.log(value,booksItem);
-    filteredBooks = booksItem.filter((item) => {
-        return (item.type === value);
-    });
-    showBooks(filteredBooks);
+    // console.log(value,booksItem);
+    selectType = value;
+    filterBook();
 }
 
 function pickSubject(value) {
-    console.log(value,booksItem);
-    filteredBooks = booksItem.filter((item) => {
-        return (item.subject === value);
-    });
-    showBooks(filteredBooks);
+    // console.log(value,booksItem);
+    selectSubject = value;
+    filterBook();
 }
 
 function pickBoard(value)
 {
-    console.log(value,booksItem);
-    filteredBooks = booksItem.filter((item) => {
-        return (item.board === value);
-    });
-    showBooks(filteredBooks);
+    // console.log(value,booksItem);
+    selectBoard = value;
+    filterBook();
 }
+
+
+function filterBook()
+{
+    if(selectClass == "All" && selectBoard == "All" && selectType == "All" && selectSubject == "All")
+    {
+        showBooks(booksItem);
+    }
+    else if (selectBoard == "All" && selectType == "All" && selectSubject == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.class == selectClass);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectClass == "All"  && selectType == "All" && selectSubject == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.board == selectBoard);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectClass == "All" && selectBoard == "All" && selectSubject == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.type == selectType);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectClass == "All" && selectBoard == "All" && selectType == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.subject == selectSubject);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectClass == "All" && selectBoard == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.type == selectType && item.subject == selectSubject);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectClass == "All" && selectType == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.board == selectBoard && item.subject == selectSubject);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectClass == "All" && selectSubject == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.type == selectType && item.board == selectBoard);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectBoard == "All" && selectType == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.class == selectClass && item.subject == selectSubject);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectBoard == "All" && selectSubject == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.type == selectType && item.class == selectClass);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectType == "All" && selectSubject == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.board == selectBoard && item.class == selectClass);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectBoard == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.type == selectType && item.subject == selectSubject && item.class == selectClass);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectClass == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.type == selectType && item.subject == selectSubject && item.board == selectBoard);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectType == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.board == selectBoard && item.subject == selectSubject && item.class == selectClass);
+        });
+        showBooks(filteredBooks);
+    }
+    else if (selectSubject == "All")
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.type == selectType && item.board == selectBoard && item.class == selectClass);
+        });
+        showBooks(filteredBooks);
+    }
+    else
+    {
+        filteredBooks = booksItem.filter((item) =>{
+            return (item.type == selectType && item.subject == selectSubject && item.class == selectClass && item.board == selectBoard);
+        });
+        showBooks(filteredBooks);
+    }
+}
+
 
 
 
@@ -217,7 +327,6 @@ function removeProduct(element) {
     sessionStorage.setItem("books",JSON.stringify(bookArr));
     showCart();
 }
-
 
 
 //Disabling invoice 
