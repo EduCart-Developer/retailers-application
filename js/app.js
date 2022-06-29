@@ -50,6 +50,7 @@ function showBooks(data)
         `;
         });
         divBook.innerHTML = html;
+        btnAddEvent();
 }
 
 
