@@ -1,8 +1,6 @@
-// const { response } = require("express");
-
 // sessionStorage.clear();
 var booksItem ;
-
+let bookCount = 0;
 // fetching the books from the database
 fetch("https://educart-book-api.herokuapp.com/api/products")
     .then(response => response.json())
@@ -14,15 +12,16 @@ fetch("https://educart-book-api.herokuapp.com/api/products")
     })
     .catch(e => console.log(e));
 
-
 function showBooks(data)
 {
     let divBook = document.getElementById("books");
     let html = "";
+    data.sort((a,b) => {
+        return (b.sortNumber - a.sortNumber);
+    });
     data.forEach((book) => {
             // console.log(book);
             html += `
-
             <div class="row productRow my-3">
             <div class="col-3">
                 <img src="${book.img}" alt="${book.title}" width="80%"/>
@@ -32,7 +31,7 @@ function showBooks(data)
                 <div class="row">${book.subject}</div>
                 <div class="row">${book.type}</div>
                 <div class="row">Class ${book.class}</div>
-                <div class="row">SKUID-${book.skuID}</div>
+                <div class="row" style = "font-weight:600;"> SKUID - ${book.skuID} </div>
             </div>
             <div class="col-2">
                 <div class="row" style="margin-bottom:10px;"><b style="padding:0;">Price</b></div>
@@ -53,7 +52,6 @@ function showBooks(data)
         divBook.innerHTML = html;
         btnAddEvent();
 }
-
 
 //adding event listner to button
 function btnAddEvent() {
@@ -112,7 +110,6 @@ function btnAddEvent() {
 }
 
 
-
 let filteredBooks;
 let selectClass = "All";
 let selectBoard = "All";
@@ -144,7 +141,6 @@ function pickBoard(value)
     selectBoard = value;
     filterBook();
 }
-
 
 function filterBook()
 {
@@ -259,9 +255,6 @@ function filterBook()
     }
 }
 
-
-
-
 //Function to display the cart items
 //it handles the cart and close text change listner
 function triggerCart() {
@@ -282,13 +275,15 @@ function triggerCart() {
     }
 }
 
-
 //Showing Book in Cart
 function showCart() {
     checkoutEmpty();
     let book = sessionStorage.getItem("books");
-    if (book == null)
+    bookCount =  0;
+    if (book == null){
         bookArr = [];
+        bookCount = 0;
+    }
     else {
         bookArr = JSON.parse(book);
         let html = "";
@@ -303,12 +298,13 @@ function showCart() {
                         </div>        
                     </div>
             `;
+            bookCount = index + 1;
         });
         let cartProduct = document.getElementById("product");
         cartProduct.innerHTML = html;
     }
+    cartCount();
 }
-
 
 //removing the product from the list
 function removeProduct(element) {
@@ -331,7 +327,6 @@ function removeProduct(element) {
     showCart();
 }
 
-
 //Disabling invoice 
 function disableInvoice(e)
 {
@@ -351,8 +346,6 @@ function disableInvoice(e)
     }
 
 }
-
-
 
 function checkoutEmpty()
 {
@@ -399,3 +392,13 @@ function checkoutEmpty()
     }
     cart.innerHTML = html;
 }
+
+
+//Adding count functionality in top of the cart
+function cartCount()
+{
+    console.log(bookCount);
+    let itemNum = document.getElementById("bookCount");
+    itemNum.innerText = bookCount;
+}
+

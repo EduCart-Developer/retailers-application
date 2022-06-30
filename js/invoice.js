@@ -7,10 +7,10 @@ let user = JSON.parse(localStorage.getItem("User"));
 //Client Details
 let clientName = user.name;
 let clientAddr = user.address;
-let clientStateCode = user.stateCode;
-let clientEmail = user.email;
-let clientCity = user.city;
-let clientZip = user.zipcode;
+// let clientStateCode = user.stateCode;
+// let clientEmail = user.email;
+// let clientCity = user.city;
+// let clientZip = user.zipcode;
 
 //Sender's Details
 let senderName = "EduCart (CBSE)";
@@ -30,8 +30,7 @@ let year = today.getFullYear();
 let month = today.getMonth();
 let day = today.getDate();
 console.log(year,month,day);
-let dateStr = day + "-" + month + "-" + year;
-
+let dateStr = day + "-" + (month+1) + "-" + year;
 
 
 var data = {
@@ -61,11 +60,11 @@ var data = {
     "client": {
         "company": clientName,
         "address": clientAddr,
-        "city": clientCity,
-        "zip": clientZip,
+        // "city": clientCity,
+        // "zip": clientZip,
         "country": "India",
-        "custom1": "Email :" + clientEmail,
-        "custom2": "State Code :" + clientStateCode
+        // "custom1": "Email :" + clientEmail,
+        // "custom2": "State Code :" + clientStateCode
         // "custom1": "custom value 1",
         // "custom2": "custom value 2",
         // "custom3": "custom value 3"
@@ -174,18 +173,6 @@ function downloadInvoice()
 //         "description": "Product 1",
 //         "tax-rate": -40,
 //         "price": 33.87
-//     },
-//     {
-//         "quantity": 4.1,
-//         "description": "Product 2",
-//         "tax-rate": -40,
-//         "price": 12.34
-//     },
-//     {
-//         "quantity": 4.5678,
-//         "description": "Product 3",
-//         "tax-rate": -40,
-//         "price": 6324.453456
 //     }
 // ]
 
