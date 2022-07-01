@@ -82,7 +82,7 @@ function btnAddEvent() {
                 price: price,
                 "tax-rate":-40
             };
-            console.log(JSON.stringify(bookObj));
+            // console.log(JSON.stringify(bookObj));
             let book = sessionStorage.getItem("books");
             if (book == null)
                 bookArr = [];
@@ -382,7 +382,7 @@ function checkoutEmpty()
             </button>
         </div> -->
             <div id="invoiceButton">
-                <button class="btn btn-primary" onclick="disableInvoice(this)">
+                <button class="invoiceBtn btn btn-primary" onclick="disableInvoice(this)">
                     <a href="./invoice.html" style="text-decoration: none; color: white;">
                         Invoice
                     </a>
@@ -397,7 +397,7 @@ function checkoutEmpty()
 //Adding count functionality in top of the cart
 function cartCount()
 {
-    console.log(bookCount);
+    // console.log(bookCount);
     let itemNum = document.getElementById("bookCount");
     itemNum.innerText = bookCount;
 }

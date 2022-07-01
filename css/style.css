@@ -68,15 +68,15 @@ body{
 
   #checkout
   {
-    background-color: aliceblue;
+    background-color:#fff;
     width: 350px;
     height: 600px;
     overflow: scroll;
     scroll-behavior: smooth;
     scroll-behavior: auto;
-    position: absolute;
-    top:11%;
-    right: 1%;
+    position: fixed;
+    top:60px;
+    right: 0;
   }
 
   #checkoutHeading{
@@ -114,3 +114,19 @@ body{
   }
 
   }
+
+
+#invoiceButton
+{
+  display: block;
+  position: relative;
+  left: 0;  
+  width: 100%;
+}
+
+
+
+.invoiceBtn
+{
+  width: 100%;
+}
