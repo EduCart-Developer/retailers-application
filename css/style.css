@@ -68,15 +68,17 @@ body{
 
   #checkout
   {
-    background-color:#fff;
+    background-color:#ecefff;
     width: 350px;
     height: 600px;
-    overflow: scroll;
     scroll-behavior: smooth;
     scroll-behavior: auto;
     position: fixed;
     top:60px;
     right: 0;
+    overflow: hidden;
+    height: auto;
+    /* padding-bottom: 2px; */
   }
 
   #checkoutHeading{
@@ -96,6 +98,7 @@ body{
     right: 13%;
   }
 
+  /* //Invoice Button ANd Cart */
 
   @media only screen and (max-width: 600px)
   {
@@ -125,8 +128,8 @@ body{
 }
 
 
-
 .invoiceBtn
 {
   width: 100%;
 }
+
