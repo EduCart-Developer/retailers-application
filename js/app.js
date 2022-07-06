@@ -275,7 +275,8 @@ function triggerCart() {
         x.style.display = "none";
         let cart = document.getElementById("cartBtn");
         let html = ``; // for the close icon sign
-        cart.innerText = "Cart";
+        cart.innerHTML = `<span>Invoice</span>    
+        <i class="fa fa-download" style="font-size:24px"></i>`;
     }
 }
 
