@@ -74,8 +74,8 @@ function btnAddEvent() {
 
 
             //targets the price of the book
-            // console.log(e.target.parentNode.parentNode.children[2].children[1].innerText);
-            let price = e.target.parentNode.parentNode.children[2].children[1].innerText;
+            // console.log(e.target.parentNode.parentNode.children[3].children[1].innerText);
+            let price = e.target.parentNode.parentNode.children[3].children[1].innerText;
             // console.log(index," ",quantity," ",title," ",price);
 
             let bookObj =
