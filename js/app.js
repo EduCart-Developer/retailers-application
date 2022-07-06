@@ -23,21 +23,25 @@ function showBooks(data)
             // console.log(book);
             html += `
             <div class="row productRow my-3">
-            <div class="col-3">
-                <img src="${book.img}" alt="${book.title}" width="80%"/>
+            <div class="col-2">
+                <img src="${book.img}" alt="${book.title}" width="100%"/>
             </div>
             <div class="col-3">
                 <div class="row" style="display:none; visibility:hidden;">${book.title}</div>
                 <div class="row">${book.subject}</div>
-                <div class="row">${book.type}</div>
+                <div class="row"><small>(${book.type})</small></div>
                 <div class="row">Class ${book.class}</div>
-                <div class="row" style = "font-weight:600;"> SKUID - ${book.skuID} </div>
+                <!--<div class="row" style = "font-weight:600;"> CODE - ${book.skuID} </div>-->
+            </div>
+            <div class="col-2">
+                <div class="row" style="margin-bottom:10px;"><b style="padding:0;">CODE</b></div>
+                <div class="row">${book.skuID}</div>
             </div>
             <div class="col-2">
                 <div class="row" style="margin-bottom:10px;"><b style="padding:0;">Price</b></div>
                 <div class="row">${book.price}</div>
             </div>
-            <div class="col-2">
+            <div class="col-1">
             <div class="row" style="margin-bottom:10px;"><b style="padding:0;">Qty</b></div>
                 <form class = "row" action="" class="bookQuantity" style="max-width:100%">
                     <input type="number" style="height:24px;">
