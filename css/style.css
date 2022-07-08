@@ -133,3 +133,47 @@ body{
   width: 100%;
 }
 
+
+
+@media only screen and (max-width: 600px)
+{
+  .book-subject
+  {
+    font-size:90%;
+    font-weight:700;
+  } 
+  .book-type
+  {
+    font-size:12px;
+  }
+  .book-class
+  {
+    font-size:12px;
+  }
+  .book-code-head
+  {
+    margin-bottom:10px;
+  }
+  .book-code
+  {
+    font-size:13px;
+  }
+  
+  .book-price-head
+  {
+    margin-bottom:10px;
+  }
+  .book-price
+  {
+    font-size:13px;
+  }
+  .book-btn
+  {
+    font-size:10px;
+    padding:2px 4px;
+    margin:0;
+    position:relative;
+    left:-15px;
+    z-index:0;
+  }
+}

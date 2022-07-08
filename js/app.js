@@ -28,27 +28,27 @@ function showBooks(data)
             </div>
             <div class="col-3">
                 <div class="row" style="display:none; visibility:hidden;">${book.title}</div>
-                <div class="row">${book.subject}</div>
-                <div class="row"><small>(${book.type})</small></div>
-                <div class="row">Class ${book.class}</div>
+                <div class="row book-subject">${book.subject}</div>
+                <div class="row book-type">(${book.type})</div>
+                <div class="row book-class">Class ${book.class}</div>
                 <!--<div class="row" style = "font-weight:600;"> CODE - ${book.skuID} </div>-->
             </div>
             <div class="col-2">
-                <div class="row" style="margin-bottom:10px;"><b style="padding:0;">CODE</b></div>
-                <div class="row">${book.skuID}</div>
+                <div class="row book-code-head"><b style="padding:0;">Code</b></div>
+                <div class="row book-code">${book.skuID}</div>
             </div>
             <div class="col-2">
-                <div class="row" style="margin-bottom:10px;"><b style="padding:0;">Price</b></div>
-                <div class="row">${book.price}</div>
+                <div class="row book-price-head"><b style="padding:0;">Price</b></div>
+                <div class="row book-price" >${book.price}</div>
             </div>
-            <div class="col-1">
-            <div class="row" style="margin-bottom:10px;"><b style="padding:0;">Qty</b></div>
-                <form class = "row" action="" class="bookQuantity" style="max-width:100%">
-                    <input type="number" style="height:24px;">
+            <div class="col-2" style="padding:0">
+            <div class="row" style="margin-bottom:10px;"><b style="padding-left:10px;">Qty</b></div>
+                <form class = "row" action="" class="bookQuantity" style="max-width:80%">
+                    <input type="number" style="height:18px;padding:0;">
                 </form>
             </div>
-            <div class="col-2">
-                <button class="addBook btn-sm btn-primary" id="${book._id}">ADD</button>
+            <div class="col-1">
+                <button class="addBook btn-sm btn-primary book-btn" id="${book._id}">Add</button>
             </div>
         </div>
         `;
