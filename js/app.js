@@ -298,7 +298,7 @@ function showCart() {
                         <div class="col-4" >${element.description}</div>
                         <div class="col-3" >${element.quantity}</div>
                         <div class="col-2" >${element.price}</div>
-                        <div class="col-2" >
+                        <div class="col-2" style="padding:0;">
                             <buttton class="btn btn-sm btn-danger removeBtn" onclick="removeProduct(this)">Remove</buttton>
                         </div>        
                     </div>
