@@ -361,7 +361,7 @@ function checkoutEmpty()
     if(book == null || book.length == 0)
     {
         html = `
-        <p> Cart is empty!!! Please add item to proceed further</p>
+        <p style="padding:10px;"> Cart is empty!!! Please add item to proceed further</p>
         <div id="product">
         </div>
         `;
