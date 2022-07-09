@@ -294,12 +294,12 @@ function showCart() {
         let html = "";
         Array.from(bookArr).forEach((element, index) => {
             html += `
-                    <div id="${element.description}" class="row align-item-start my-3" style="padding: 0;padding-left: 20px;">
-                        <div class="col-4" >${element.description}</div>
-                        <div class="col-3" >${element.quantity}</div>
-                        <div class="col-2" >${element.price}</div>
-                        <div class="col-2" style="padding:0;">
-                            <buttton class="btn btn-sm btn-danger removeBtn" onclick="removeProduct(this)">Remove</buttton>
+                    <div id="${element.description}" class="cartItems row align-item-start my-3">
+                        <div class="col-6 cartItems-Desc" >${element.description}</div>
+                        <div class="col-2 cartItems-Qty" >${element.quantity}</div>
+                        <div class="col-2 cartItems-Price" >${element.price}</div>
+                        <div class="col-2 cartItems-Remove" style="padding:0;">
+                            <buttton class="btn btn-sm btn-danger removeBtn" onclick="removeProduct(this)" style="font-size:10px;">Remove</buttton>
                         </div>        
                     </div>
             `;
@@ -370,9 +370,9 @@ function checkoutEmpty()
     {
         html = `
         <div id="checkoutHeading" class="row align-item-start my-3" style="padding: 0;padding-left: 20px;">
-        <div class="col-4" >Books</div>
-        <div class="col-3" >Quantity</div>
-        <div class="col-2" >Price</div>
+        <div class="col-6"  >Books</div>
+        <div class="col-2" style="padding:0;" >Qty</div>
+        <div class="col-2" style="padding:0;" >Price</div>
         <div class="col-2" style="display: none;">
             <buttton class="btn btn-sm btn-danger">Remove</buttton>
         </div>

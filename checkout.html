@@ -23,7 +23,7 @@
     <div class="container my-3">
         <h1>Please Enter Your Details</h1>
         <div id="userDetails">
-            <form class="row g-3">
+            <form class="row g-3" onsubmit="return def()">
                   <div class="col-12">
                     <label for="name" class="form-label">Shop's Name</label>
                     <input type="text" class="form-control" id="name" placeholder="Book Store">
@@ -58,8 +58,9 @@
                   <input type="number" class="form-control" id="zipCode" placeholder="282002">
                 </div> -->
                 <div class="col-12">
-                  <button class="btn btn-primary" onclick="setUser()">
-                    <a href="./invoice.html" style="text-decoration: none;color: white;">Confirm & Proceed</a>
+                  <button type="submit" class="btn btn-primary" onclick="setUser()">
+                    <a id="submitForm" onclick="redirectLink(this)" class="btn btn-primary btn-large" href="./invoice.html" style="color: #fff;text-decoration: none;margin: auto;">Confirm & Proceed</a>
+                    
                   </button>
                 </div>
               </form>

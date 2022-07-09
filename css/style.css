@@ -1,5 +1,5 @@
 body{
-  background-color: aliceblue;
+  background-color: rgb(247, 248, 249);
 }
 
 
@@ -58,7 +58,7 @@ body{
 
   #checkout
   {
-    background-color:#ecefff;
+    background-color:rgb(241, 241, 242);
     width: 350px;
     height: 600px;
     scroll-behavior: smooth;
@@ -93,12 +93,12 @@ body{
   @media only screen and (max-width: 600px)
   {
     
+    #checkout
+    {
+      width: 100%;
+      height: auto;
+    }
 
-  #invoiceButton
-  {
-    position: absolute;
-    right:17%;
-  }
 
   #checkoutBtn
   {
@@ -202,5 +202,38 @@ body{
     position: relative;
     z-index: 0;
     left: -2px;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px)
+{
+  .cartItems
+  {
+    margin: 5px 10px 5px 5px;
+    padding: 0;
+    padding-left: 10px;background-color:#fff;
+    border-radius: 6%;
+    display: flex;
+    align-items: center;
+  }
+  .cartItems-Desc
+  {
+    padding-left: 0px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .cartItems-Qty
+  {
+    font-size: 13px;
+  }
+  .cartItems-Price
+  {
+    font-size: 13px;
+  }
+  .cartItems-Remove
+  {
+    font-size: 13px;
   }
 }

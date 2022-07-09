@@ -1,4 +1,3 @@
-// const logo = require("../assets/invoice-head.jpg");
 // import logo from '../assets/invoice-head.jpg';
 
 let num = 1;
@@ -60,9 +59,9 @@ var data = {
     "client": {
         "company": clientName,
         "address": clientAddr,
-        // "city": clientCity,
-        // "zip": clientZip,
-        "country": "India",
+        // "city": "India",
+        "zip": "India"
+        // "country": "India",
         // "custom1": "Email :" + clientEmail,
         // "custom2": "State Code :" + clientStateCode
         // "custom1": "custom value 1",
@@ -119,14 +118,14 @@ window.onload = (e) =>
 let result;
 async function createInv(){
     result = await easyinvoice.createInvoice(data);
-    console.log(result);
+    // console.log(result);
     // easyinvoice.download('invoice.pdf',result.pdf)
     //render on the browser
     await easyinvoice.render("invoice",result.pdf);
     num++;
     sessionStorage.clear();
 }
-//Create your invoice! Easy!
+
 
 // easyinvoice.createInvoice(data, function (result) {
 //     //The response will contain a base64 encoded PDF file
@@ -143,23 +142,23 @@ async function createInv(){
 
 
 
-function sendEmail() {
-    Email.send({
-        SecureToken : "2d06c160-ff94-45ef-b099-4b3b5773748e",
-        To : "yjain8958372013@gmail.com",
-        From : "educart.developer@gmail.com",
-        Subject : "Invoice",
-        Body : "Thanks for ordering!",
-        Attachments : [
-            {
-                name: "Invoice",
-                data: result.pdf
-            }
-        ]
-    }).then(
-      message => console.log(message)
-    );
-  }
+// function sendEmail() {
+//     Email.send({
+//         SecureToken : "2d06c160-ff94-45ef-b099-4b3b5773748e",
+//         To : "yjain8958372013@gmail.com",
+//         From : "educart.developer@gmail.com",
+//         Subject : "Invoice",
+//         Body : "Thanks for ordering!",
+//         Attachments : [
+//             {
+//                 name: "Invoice",
+//                 data: result.pdf
+//             }
+//         ]
+//     }).then(
+//       message => console.log(message)
+//     );
+//   }
 
 
 function downloadInvoice()
