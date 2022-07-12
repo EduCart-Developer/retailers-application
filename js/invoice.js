@@ -21,14 +21,14 @@ let senderCity = "Agra, Uttar Pradesh";
 
 //user's product
 let cart = JSON.parse(sessionStorage.getItem("books"));
-console.log(cart);
+// console.log(cart);
 
 //date object
 let today = new Date();
 let year = today.getFullYear();
 let month = today.getMonth();
 let day = today.getDate();
-console.log(year,month,day);
+// console.log(year,month,day);
 let dateStr = day + "-" + (month+1) + "-" + year;
 
 
@@ -122,7 +122,8 @@ async function createInv(){
     // easyinvoice.download('invoice.pdf',result.pdf)
     //render on the browser
     await easyinvoice.render("invoice",result.pdf);
-    num++;
+    document.getElementById("downloadInv").style.display = "inline";
+    document.getElementById("loadingBtn").style.display = "none";
     sessionStorage.clear();
 }
 
