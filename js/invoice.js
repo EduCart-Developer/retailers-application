@@ -123,7 +123,9 @@ async function createInv(){
     //render on the browser
     await easyinvoice.render("invoice",result.pdf);
     document.getElementById("downloadInv").style.display = "inline";
+    document.getElementById("invoice").style.display = "block";
     document.getElementById("loadingBtn").style.display = "none";
+    document.getElementById("spinner").style.display = "none";
     sessionStorage.clear();
 }
 

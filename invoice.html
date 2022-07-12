@@ -40,10 +40,18 @@
         
     </div>
 
-    <div class="container text-center">
+    <div class="container text-center ">
+        <button id="downloadInv" style="display: none;margin: auto;"class="btn btn-primary my-3" onclick="downloadInvoice()">Download</button>
+    </div>
+
+    <div class="container text-center loadingContainer">
         <!-- <button class="btn btn-primary" onclick="sendEmail()">Send Invoice</button> -->
-    <button id="downloadInv" style="display: none;"class="btn btn-primary" onclick="downloadInvoice()">Download</button>
-        <button class="btn btn-primary" type="button" id="loadingBtn" disabled>
+        <div id="spinner" class="spinner-border text-primary my-3" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <br>
+    
+        <button class="btn btn-primary my-3" type="button" id="loadingBtn" disabled>
             <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
             Loading...
         </button>
