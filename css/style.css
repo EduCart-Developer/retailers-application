@@ -149,6 +149,8 @@ body{
   .book-code
   {
     font-size:13px;
+    overflow:hidden;
+    font-size:11px
   }
   
   .book-price-head
@@ -158,6 +160,7 @@ body{
   .book-price
   {
     font-size:13px;
+    padding-left:8px
   }
   .book-btn
   {

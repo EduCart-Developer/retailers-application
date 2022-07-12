@@ -31,7 +31,7 @@ function showBooks(data)
                 <div class="row book-subject">${book.subject}</div>
                 <div class="row book-type">(${book.type})</div>
                 <div class="row book-class">${book.class==="NEET" || book.class === "CUET" ? book.class:"Class " + book.class}</div>
-                <!--<div class="row" style = "font-weight:600;"> CODE - ${book.skuID} </div>-->
+                <!--<div class="row" style = "font-weight:600;overflow:hidden;"> CODE - ${book.skuID} </div>-->
             </div>
             <div class="col-2">
                 <div class="row book-code-head"><b style="padding:0;">Code</b></div>
