@@ -41,13 +41,6 @@ body{
   }
 
 
-  /* Filters  */
-  .filters
-  {
-    margin:0 30px;
-    padding: 10px;
-  }
-
   option
   {
     height: 80px;
@@ -175,32 +168,61 @@ body{
 
 
 /* Filters */
+
+
+.filter-container
+{
+  margin-top: 60px;
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 10%;
+}
+
+.filter-heading{
+  margin: 35px auto auto 40px;
+}
+
+.filters{
+  margin-top: 10px;
+  position: relative;
+  left: -200px;
+  width: 40%;
+  height: 40px;
+  text-align: center;
+}
+
+
 @media only screen and (max-width: 600px)
 {
   .filters
   {
+    position: static;
     padding: 1px;
     font-size: 13px;
     border-radius: 6%;
     margin: 0;
-    width: 22%;
-    margin-right: 5px;
+    width: 80%;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 4%;
   }
   .filter-container
   {
+    margin: 0;
     max-width: 100%;
     background-color: #fff;
     padding: 10px 0 10px 6px;
+    margin-top: 60px;
   }
 
   select
   {
     width: auto;
   }
-  
-  .filter-heading
-  {
-    display: none;
+
+  .filter-heading{
+    margin-top: 35%;
+    margin-left: 5px;
   }
 }
 
@@ -249,3 +271,4 @@ body{
   opacity: 0.5;
   z-index: 1;
 }
+
