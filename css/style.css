@@ -180,10 +180,10 @@ body{
   .filters
   {
     padding: 1px;
-    font-size: 9px;
+    font-size: 13px;
     border-radius: 6%;
     margin: 0;
-    width: 19%;
+    width: 22%;
     margin-right: 5px;
   }
   .filter-container
@@ -200,11 +200,7 @@ body{
   
   .filter-heading
   {
-    display: inline;
-    font-size: 14px;
-    position: relative;
-    z-index: 0;
-    left: -2px;
+    display: none;
   }
 }
 
@@ -239,4 +235,17 @@ body{
   {
     font-size: 13px;
   }
+}
+
+
+#greyContainer
+{
+  display: none;
+  position: fixed;
+  top:60px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(71, 66, 66);
+  opacity: 0.5;
+  z-index: 1;
 }

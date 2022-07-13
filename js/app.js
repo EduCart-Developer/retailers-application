@@ -270,13 +270,15 @@ function triggerCart() {
         //   console.log(cart);
         cart.innerText = "Close";
         //   Adding products to cart
+        document.getElementById("greyContainer").style.display = "block";
         showCart();
     } else {
+        document.getElementById("greyContainer").style.display = "none";
         x.style.display = "none";
         let cart = document.getElementById("cartBtn");
         let html = ``; // for the close icon sign
-        cart.innerHTML = `<span>Invoice</span>    
-        <i class="fa fa-download" style="font-size:24px"></i>`;
+        cart.innerHTML = `<span>Invoice    
+        <i class="fa fa-download" style="font-size:24px"></i></span>`;
     }
 }
 
@@ -389,7 +391,8 @@ function checkoutEmpty()
             <div id="invoiceButton">
                 <button class="invoiceBtn btn btn-primary" onclick="disableInvoice(this)">
                     <a href="./invoice.html" style="text-decoration: none; color: white;">
-                        Invoice
+                        Invoice 
+                        <i class="fa fa-download" style="font-size:20px;padding-left:4px;"></i>
                     </a>
                 </button>
             </div>
