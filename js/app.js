@@ -8,6 +8,10 @@ fetch("https://educart-book-api.herokuapp.com/api/products")
         console.log(data);
         booksItem = data;
         showBooks(booksItem);
+        document.getElementById("spinner").style.display = "none";
+        setTimeout(() => {
+            document.getElementById("books").style.display = "inherit";
+        }, 400);
         btnAddEvent();
     })
     .catch(e => console.log(e));
