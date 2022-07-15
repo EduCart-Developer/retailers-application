@@ -298,6 +298,7 @@ function triggerCart() {
 function showCart() {
     checkoutEmpty();
     let book = sessionStorage.getItem("books");
+    bookCount = 0;
     if (book == null){
         bookArr = [];
         bookCount = 0;
