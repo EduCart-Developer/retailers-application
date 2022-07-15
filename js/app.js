@@ -443,7 +443,11 @@ const addBtnOnLoad = ()=>{
 };
 
 window.onload = ()=>{
-    document.getElementById("bookCount").innerText = JSON.parse(sessionStorage.getItem("books")).length;
-    triggerCart();
-    triggerCart();
+    let len = JSON.parse(sessionStorage.getItem("books")).length;
+    if(len)
+    {
+        document.getElementById("bookCount").innerText = JSON.parse(sessionStorage.getItem("books")).length;
+        triggerCart();
+        triggerCart();
+    }
 }
