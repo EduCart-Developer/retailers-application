@@ -443,8 +443,7 @@ const addBtnOnLoad = ()=>{
 };
 
 window.onload = ()=>{
-    let len = JSON.parse(sessionStorage.getItem("books")).length;
-    if(len)
+    if(JSON.parse(sessionStorage.getItem("books")).length)
     {
         document.getElementById("bookCount").innerText = JSON.parse(sessionStorage.getItem("books")).length;
         triggerCart();
