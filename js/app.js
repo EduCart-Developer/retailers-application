@@ -8,10 +8,10 @@ fetch("https://educart-book-api.herokuapp.com/api/products")
         console.log(data);
         booksItem = data;
         showBooks(booksItem);
-        document.getElementById("spinner").style.display = "none";
         setTimeout(() => {
+            document.getElementById("spinner").style.display = "none";
             document.getElementById("books").style.display = "inherit";
-        }, 400);
+        }, 2000);
         btnAddEvent();
     })
     .catch(e => console.log(e));
@@ -26,7 +26,7 @@ function showBooks(data)
     data.forEach((book) => {
             // console.log(book);
             html += `
-            <div class="row productRow my-3" style="padding:0 2px;">
+            <div id="${book._id}" class="row productRow my-3" style="padding:0 2px;">
             <div class="col-2" style="padding:0;">
                 <img src="${book.img}" alt="${book.title}" width="90%"/>
             </div>
@@ -48,7 +48,7 @@ function showBooks(data)
             <div class="col-2" style="padding:0">
             <div class="row" style="margin-bottom:10px;"><b style="padding-left:10px;">Qty</b></div>
                 <form class = "row" action="" class="bookQuantity" style="max-width:80%">
-                    <input type="number" style="height:18px;padding:0;">
+                    <input type="number" style="height:18px;padding:0;text-align:center;font-size:11px;">
                 </form>
             </div>
             <div class="col-1">
@@ -59,6 +59,8 @@ function showBooks(data)
         });
         divBook.innerHTML = html;
         btnAddEvent();
+        addBtnOnLoad();
+        cartCount();
 }
 
 //adding event listner to button
@@ -82,9 +84,10 @@ function btnAddEvent() {
             let price = e.target.parentNode.parentNode.children[3].children[1].innerText;
             // console.log(index," ",quantity," ",title," ",price);
 
+            let id = e.target.parentNode.parentNode.id;
             let bookObj =
             {
-                id: index,
+                id: id,
                 description: title,
                 quantity: quantity,
                 price: price,
@@ -108,7 +111,12 @@ function btnAddEvent() {
                 }
             });
             if(flag && quantity != 0 && quantity != "")
+            {
+                element.innerText = "Added";
+                element.classList.remove ("btn-primary");
+                element.classList.add ("btn-success");
                 bookArr.push(bookObj);
+            }
             // book.push(JSON.stringify(bookObj))
             // console.log(bookArr);
             sessionStorage.setItem("books", JSON.stringify(bookArr));
@@ -300,7 +308,7 @@ function showCart() {
         let html = "";
         Array.from(bookArr).forEach((element, index) => {
             html += `
-                    <div id="${element.description}" class="cartItems row align-item-start my-3">
+                    <div id="${element.id}" class="cartItems row align-item-start my-3">
                         <div class="col-6 cartItems-Desc" >${element.description}</div>
                         <div class="col-2 cartItems-Qty" >${element.quantity}</div>
                         <div class="col-2 cartItems-Price" >${element.price}</div>
@@ -323,17 +331,25 @@ function removeProduct(element) {
     // p.parentNode.removeChild(p);
     //Products Title to remove
     let titleDelete = element.parentNode.parentNode.id;
+    // titleDelete = titleDelete.substring(0,1);
 
     let book = sessionStorage.getItem("books");
     let bookArr = JSON.parse(book);
 
     for (let index = 0; index < bookArr.length; index++) {
-        if(bookArr[index].description == titleDelete)
+        if(bookArr[index].id === titleDelete)
         {
             bookArr.splice(index,1)
         }
     }
-    console.log(bookArr);
+    // console.log(bookArr);
+    
+    let removedBook = document.getElementById(titleDelete);
+    // console.log(removedBook);
+    removedBook.children[5].children[0].innerText = "ADD";
+    removedBook.children[5].children[0].classList.add("btn-primary");
+    removedBook.children[5].children[0].classList.remove("btn-success");
+    removedBook.children[4].children[1].children[0].value="";
     sessionStorage.setItem("books",JSON.stringify(bookArr));
     showCart();
 }
@@ -385,13 +401,6 @@ function checkoutEmpty()
         </div>
         <div id="product">
         </div>
-        <!-- <div class="container">
-            <button class="btn btn-lg btn-primary checkoutBtn">
-                <a href="../checkout.html" style="text-decoration: none; color: white;">
-                    Proceed to checkout
-                </a>
-            </button>
-        </div> -->
             <div id="invoiceButton">
                 <button class="invoiceBtn btn btn-primary" onclick="disableInvoice(this)">
                     <a href="./invoice.html" style="text-decoration: none; color: white;">
@@ -414,3 +423,18 @@ function cartCount()
     itemNum.innerText = bookCount;
 }
 
+
+
+//window onload the ADD buttons should reamin green
+const addBtnOnLoad = ()=>{
+    let book = sessionStorage.getItem("books");
+    let bookArr = JSON.parse(book);
+    for (let index = 0; index < bookArr.length; index++)
+    {
+        let addBook = document.getElementById(bookArr[index].id);
+        addBook.children[5].children[0].innerText = "Added";
+        addBook.children[5].children[0].classList.add("btn-success");
+        addBook.children[5].children[0].classList.remove("btn-primary");    
+        addBook.children[4].children[1].children[0].value=bookArr[index].quantity;
+    }  
+};
