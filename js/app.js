@@ -1,6 +1,6 @@
 // sessionStorage.clear();
 var booksItem ;
-let bookCount = 0;
+var bookCount = document.getElementById('bookCount').innerText;
 // fetching the books from the database
 fetch("https://educart-book-api.herokuapp.com/api/products")
     .then(response => response.json())
@@ -298,7 +298,6 @@ function triggerCart() {
 function showCart() {
     checkoutEmpty();
     let book = sessionStorage.getItem("books");
-    bookCount =  0;
     if (book == null){
         bookArr = [];
         bookCount = 0;
@@ -317,7 +316,7 @@ function showCart() {
                         </div>        
                     </div>
             `;
-            bookCount = index + 1;
+            bookCount = index+1;
         });
         let cartProduct = document.getElementById("product");
         cartProduct.innerHTML = html;
@@ -429,12 +428,21 @@ function cartCount()
 const addBtnOnLoad = ()=>{
     let book = sessionStorage.getItem("books");
     let bookArr = JSON.parse(book);
-    for (let index = 0; index < bookArr.length; index++)
+    if(bookArr)
     {
-        let addBook = document.getElementById(bookArr[index].id);
-        addBook.children[5].children[0].innerText = "Added";
-        addBook.children[5].children[0].classList.add("btn-success");
-        addBook.children[5].children[0].classList.remove("btn-primary");    
-        addBook.children[4].children[1].children[0].value=bookArr[index].quantity;
+        for (let index = 0; index < bookArr.length; index++)
+        {
+            let addBook = document.getElementById(bookArr[index].id);
+            addBook.children[5].children[0].innerText = "Added";
+            addBook.children[5].children[0].classList.add("btn-success");
+            addBook.children[5].children[0].classList.remove("btn-primary");    
+            addBook.children[4].children[1].children[0].value=bookArr[index].quantity;
+        }
     }  
 };
+
+window.onload = ()=>{
+    document.getElementById("bookCount").innerText = JSON.parse(sessionStorage.getItem("books")).length;
+    triggerCart();
+    triggerCart();
+}
