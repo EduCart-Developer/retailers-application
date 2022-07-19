@@ -52,15 +52,19 @@ body{
   #checkout
   {
     background-color:rgb(241, 241, 242);
-    width: 350px;
-    height: 600px;
+    width: 480px;
+    padding: 30px;
+    
+
+    /* height: 600px; */
+    overflow: scroll;
+    overflow-x: hidden;
     scroll-behavior: smooth;
-    scroll-behavior: auto;
+    /* scroll-behavior: auto; */
     position: fixed;
     top:60px;
     right: 0;
-    overflow: hidden;
-    height: auto;
+    height: 80vh;
     /* padding-bottom: 2px; */
   }
 
@@ -90,6 +94,10 @@ body{
     {
       width: 100%;
       height: auto;
+      max-height: 80vh;
+      overflow-y: scroll;
+      padding: 5px;
+      scroll-behavior: smooth;
     }
 
 
@@ -268,13 +276,9 @@ body{
   width: 100vw;
   height: 100vh;
   background-color: rgb(71, 66, 66);
-  opacity: 0.5;
+  opacity: 0.3;
   z-index: 1;
 }
-
-
-
-
 
 
 
