@@ -445,7 +445,7 @@ const addBtnOnLoad = ()=>{
 window.onload = ()=>{
     if(JSON.parse(sessionStorage.getItem("books")))
     {
-        //Initialize the cart count if there are products already added
+        //Initialize the cart count
         document.getElementById("bookCount").innerText = JSON.parse(sessionStorage.getItem("books")).length;
         triggerCart();
         triggerCart();
