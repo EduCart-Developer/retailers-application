@@ -425,7 +425,7 @@ function cartCount()
 
 
 
-//window onload the ADD buttons should reamin green
+//window onload the ADD buttons should remain green
 const addBtnOnLoad = ()=>{
     let book = sessionStorage.getItem("books");
     let bookArr = JSON.parse(book);
