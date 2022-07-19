@@ -64,7 +64,8 @@ body{
     position: fixed;
     top:60px;
     right: 0;
-    height: 80vh;
+    height: auto;
+    max-height: 80vh;
     /* padding-bottom: 2px; */
   }
 
