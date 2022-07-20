@@ -80,7 +80,7 @@ var data = {
     // Total values are being calculated automatically
     "products": cart,
     // The message you would like to display on the bottom of your invoice
-    "bottom-notice": "For further support on your order, kindly contact us at +91 89999 99999",
+    "bottom-notice": "For further support on your order, kindly contact us at +91 70888 02299",
     // Settings to customize your invoice
     "settings": {
         "currency": "INR", // See documentation 'Locales and Currency' for more info. Leave empty for no currency.
