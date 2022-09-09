@@ -29,7 +29,7 @@ let senderCity = "Agra, Uttar Pradesh";
 let cart = JSON.parse(sessionStorage.getItem("books"));
 console.log(cart); 
 Array.from(cart).forEach((e,idx)=>{
-    e['tax-rate'] = discount;
+    e['tax-rate'] = -discount;
 });
 // cart.forEach(element => {
 //     element.tax-rate = discount;
