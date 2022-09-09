@@ -74,7 +74,7 @@ var data = {
         // Invoice data
         "date": dateStr,
         // Invoice due date
-        "due-date": "Within 10 days"
+        "Account Number": "XXXX-XXXX-XXXX-XXXX"
     },
     // The products you would like to see on your invoice
     // Total values are being calculated automatically
