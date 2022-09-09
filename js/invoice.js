@@ -4,8 +4,14 @@ let num = 1;
 let user = JSON.parse(localStorage.getItem("User"));
 
 //Client Details
-let clientName = user.name;
-let clientAddr = user.address;
+const clientName = user.name;
+const clientAddr = user.address;
+let discount;
+if(user.discount === null)
+    discount = -40;
+else
+    discount = user.discount;
+
 // let clientStateCode = user.stateCode;
 // let clientEmail = user.email;
 // let clientCity = user.city;
@@ -21,7 +27,13 @@ let senderCity = "Agra, Uttar Pradesh";
 
 //user's product
 let cart = JSON.parse(sessionStorage.getItem("books"));
-// console.log(cart);
+console.log(cart); 
+Array.from(cart).forEach((e,idx)=>{
+    e['tax-rate'] = discount;
+});
+// cart.forEach(element => {
+//     element.tax-rate = discount;
+// });
 
 //date object
 let today = new Date();
@@ -122,11 +134,11 @@ async function createInv(){
     // easyinvoice.download('invoice.pdf',result.pdf)
     //render on the browser
     await easyinvoice.render("invoice",result.pdf);
+    
     document.getElementById("downloadInv").style.display = "inline";
     document.getElementById("invoice").style.display = "block";
     document.getElementById("loadingBtn").style.display = "none";
     document.getElementById("spinner").style.display = "none";
-    sessionStorage.clear();
 }
 
 
@@ -167,8 +179,9 @@ async function createInv(){
 function downloadInvoice()
 {
     easyinvoice.download('invoice.pdf',result.pdf);
+    sessionStorage.clear();
 }
-
+// console.log(easyinvoice);
 //   [
 //     {
 //         "quantity": 2,

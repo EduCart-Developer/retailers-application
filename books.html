@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://global-uploads.webflow.com/5f5cf462f0ee5f4a999616bb/6095a711150b7ca9f40c1cfd_Group%2095.svg" rel="shortcut icon" type="image/x-icon">
+    <title>Books | EduCart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position:fixed;padding: 0;width: 100%;top:0;height: 60px;z-index: 1;">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" > -->
+                <a href="./index.html" style="display: inline;width:40%"><img id="logo" src="./assets/educart.png" alt="Educart Logo" style="height:50px;display:inline"></a>
+            <!-- </a>     -->
+            
+                <!-- <div id="invoiceButton">
+                    <button class="btn btn-primary" onclick="disableInvoice(this)">
+                        <a href="./invoice.html" style="text-decoration: none; color: white;">
+                            Invoice
+                        </a>
+                    </button>
+                </div> -->
+                <!-- <div id="checkoutBtn">
+                    <button class="btn btn-primary" >
+                        <a href="./checkout.html" style="text-decoration: none; color: white;">
+                            Edit User
+                        </a>
+                    </button>
+                </div> -->
+                <div style="position: relative;">
+                    <p id="cartBtn" onclick="triggerCart()" class="cart" style="color:white;padding: auto;margin: auto;font-size: 20px;margin-right: 20px;">
+                        <span>Invoice</span>    
+                        <i class="fa fa-download" style="font-size:24px"></i>
+                    </p>
+                    <span id="bookCount" style="position:absolute;right:0;top:-20%;background-color: #fff;border-radius: 50%;padding: 4px;font-weight: 700;font-size: 12px;">0</span>
+                </div>
+            
+        </div>
+    </nav>
+
+    <!-- Alert
+    <div class="alert alert-danger alert-dismissible fade show" role="alert" id="alertDiv" style="display: none;">
+        <strong>Please Enter your details first!</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div> -->
+
+    
+    <!-- Filters -->
+    <!-- <div class="container filter-container" style="margin-top: 60px;"> -->
+        <div class="row filter-container">
+            <div class="col-4">
+                <h3 class="filter-heading">Filters:</h3>
+            </div>    
+            <div class="col-4">
+                <div class="row">
+                    <select id="pickClass" class = "filters" name="class"onchange="pickClass(this.value)">
+                        <option value="12">Class 12</option>
+                        <option value="11">Class 11</option>
+                        <option value="10">Class 10</option>
+                        <option value="9">Class 9</option>
+                        <option value="8">Class 8</option>
+                        <option value="NEET">NEET</option>
+                        <option value="CUET">CUET</option>
+                        <option value="All" selected>All Classes</option>
+                    </select>            
+                </div>
+                <div class="row">
+                    <select id="pickBoard" class = "filters" name="board" onchange="pickBoard(this.value)">
+                        <option value="CBSE">CBSE</option>
+                        <option value="ICSE">ICSE</option>
+                        <option value="ISC">ISC</option>
+                        <option value="Up Board">UP Board</option>
+                        <option value="All" selected>All Boards</option>
+                      </select>        
+                </div>
+            </div>
+            
+            <div class="col-4">
+                <div class="row">
+                    <select id="pickContentType" class = "filters" name="contentType" onchange="pickContentType(this.value)">
+                        <option value="Question Bank">Question Bank</option>
+                        <option value="Guide Book">Guide Book</option>
+                        <option value="NCERT Exemplar">Ncert Exemplar</option>
+                        <option value="Practice Papers">Practice Paper</option>
+                        <option value="Entrance Exam">Entrance Exam</option>
+                        <option value="Sample Papers">Sample Paper</option>
+                        <option value="Solved Papers">Solved Paper</option>
+                        <option value="Mock Papers">Mock Paper</option>
+                        <option value="Lab Manual">Lab Manual</option>
+                        <option value="Textbook">Textbook</option>
+                        <option value="All" selected>All Types</option>
+                      </select>            
+                </div>
+                <div class="row">
+                    <select id="pickSubject" class = "filters " name="subject" onchange="pickSubject(this.value)">
+                        <option value="Mathematics">Mathematics</option>
+                        <option value="Science">Science</option>
+                        <option value="Physics">Physics</option>
+                        <option value="Chemistry">Chemistry</option>
+                        <option value="Biology">Biology</option>
+                        <option value="Social Science">Social Science</option>
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Bundle">Bundle</option>
+                        <option value="All" selected>All Subject</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+
+    <div class="container-fluid" id="greyContainer"></div>
+
+    <!-- Dynamic Products -->
+    <div class="container my-3">
+        <div id="spinner" class="text-center" style="margin-top: 25%;">
+            <img src="./assets/loading.gif" alt="spinner">
+        </div>
+        <div id = "books" style="display: none;">
+
+        </div>
+    </div>
+
+    
+    
+
+    <!-- Checkout Div -->
+    <div id ="checkout" style="display: none;z-index: 4;" onload="checkoutEmpty()">
+    </div>
+
+</body>
+<!-- Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="js/app1.js"></script>
+
+</html>
