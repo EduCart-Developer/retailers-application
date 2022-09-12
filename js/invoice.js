@@ -4,12 +4,15 @@ let num = 1;
 let user = JSON.parse(localStorage.getItem("User"));
 
 //Client Details
+if(user == null)
+{
+    alert("Please visit the home page again to proceed");
+}
+
 const clientName = user.name;
 const clientAddr = user.address;
-let discount;
-if(user.discount === null)
-    discount = -40;
-else
+let discount = 40;
+if(user.discount != null)
     discount = user.discount;
 
 // let clientStateCode = user.stateCode;
@@ -27,7 +30,7 @@ let senderCity = "Agra, Uttar Pradesh";
 
 //user's product
 let cart = JSON.parse(sessionStorage.getItem("books"));
-console.log(cart); 
+// console.log(cart); 
 Array.from(cart).forEach((e,idx)=>{
     e['tax-rate'] = -discount;
 });
@@ -139,6 +142,8 @@ async function createInv(){
     document.getElementById("invoice").style.display = "block";
     document.getElementById("loadingBtn").style.display = "none";
     document.getElementById("spinner").style.display = "none";
+    localStorage.clear();
+    sessionStorage.clear();
 }
 
 
@@ -179,7 +184,6 @@ async function createInv(){
 function downloadInvoice()
 {
     easyinvoice.download('invoice.pdf',result.pdf);
-    sessionStorage.clear();
 }
 // console.log(easyinvoice);
 //   [
