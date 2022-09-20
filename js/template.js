@@ -97,7 +97,7 @@ document.getElementById("downloadBtn")
 .addEventListener('click', function () {
     html2canvas(document.getElementById("invoice")).then(function (canvas) {                   
        var anchorTag = document.createElement("a");
-        document.body.appendChild(anchorTag);
+        // document.body.appendChild(anchorTag);
         // document.getElementById("previewImg").appendChild(canvas);
         anchorTag.innerText = "Download Invoice"
         anchorTag.download = "filename.jpg";
