@@ -142,7 +142,7 @@ async function createInv(){
     document.getElementById("invoice").style.display = "block";
     document.getElementById("loadingBtn").style.display = "none";
     document.getElementById("spinner").style.display = "none";
-    localStorage.clear();
+    // localStorage.clear();
     sessionStorage.clear();
 }
 

@@ -2,16 +2,16 @@
 var booksItem ;
 var bookCount = document.getElementById('bookCount').innerText;
 // fetching the books from the database
-fetch("https://educart-book-api.herokuapp.com/api/products")
+fetch("../data/data.json")
     .then(response => response.json())
     .then((data) => {
-        console.log(data);
+        // console.log(data);
         booksItem = data;
         showBooks(booksItem);
         setTimeout(() => {
             document.getElementById("spinner").style.display = "none";
             document.getElementById("books").style.display = "inherit";
-        }, 2000);
+        }, 500);
         btnAddEvent();
     })
     .catch(e => console.log(e));
@@ -357,20 +357,21 @@ function removeProduct(element) {
 //Disabling invoice 
 function disableInvoice(e)
 {
-    let user = localStorage.getItem("User");
-    if(user === null)
-    {
-        e.children[0].href = "./checkout.html";
-        // console.log(e.children[0]);
-        // e.style.backgroundColor = "grey";
-        // document.getElementById("alertDiv").style.display = "inherit";
-        // alert("Please enter your details! Using 'Edit User Button'")
-        // e.preventDefault();
-    }
-    else
-    {
-        e.children[0].href = "./invoice.html";
-    }
+    e.children[0].href = "./checkout.html";
+    // let user = localStorage.getItem("User");
+    // if(user === null)
+    // {
+        
+    //     // console.log(e.children[0]);
+    //     // e.style.backgroundColor = "grey";
+    //     // document.getElementById("alertDiv").style.display = "inherit";
+    //     // alert("Please enter your details! Using 'Edit User Button'")
+    //     // e.preventDefault();
+    // }
+    // else
+    // {
+    //     e.children[0].href = "./invoice.html";
+    // }
 
 }
 
@@ -451,3 +452,6 @@ window.onload = ()=>{
         triggerCart();
     }
 }
+
+
+// API: https://educart-book-api.herokuapp.com/api/products

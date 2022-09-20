@@ -2,16 +2,17 @@
 var booksItem ;
 var bookCount = document.getElementById('bookCount').innerText;
 // fetching the books from the database
-fetch("https://educart-book-api.herokuapp.com/api/products")
+
+fetch("../data/data.json")
     .then(response => response.json())
     .then((data) => {
-        console.log(data);
+        // console.log(data);
         booksItem = data;
         showBooks(booksItem);
         setTimeout(() => {
             document.getElementById("spinner").style.display = "none";
             document.getElementById("books").style.display = "inherit";
-        }, 2000);
+        }, 500);
         btnAddEvent();
     })
     .catch(e => console.log(e));
@@ -432,3 +433,5 @@ window.onload = ()=>{
         triggerCart();
     }
 }
+
+// API: https://educart-book-api.herokuapp.com/api/products
