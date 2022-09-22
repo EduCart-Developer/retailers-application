@@ -1714,5 +1714,85 @@
         "createdAt": "2022-09-13T12:40:10.565Z",
         "updatedAt": "2022-09-13T12:40:10.565Z",
         "__v": 0
+    },
+    {
+        "_id": "1",
+        "title": "CBSE Science Sample Question Paper Class 10 - SP416",
+        "desc": "",
+        "img": "https://drive.google.com/file/d/13UzlDXJIiuVg_CeR_GW0FlW5a1MBiKMW/view?usp=sharing",
+        "categories": [
+            "Sample Paper",
+            "Class 10",
+            "Science",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "Class 10",
+        "subject": "Science",
+        "type": "Sample Paper",
+        "price": 299,
+        "skuID": "SP416",
+        "sortNumber": 82,
+        "__v": 0
+    },
+    {
+        "_id": "2",
+        "title": "CBSE Mathematics Standard Sample Question Paper Class 10 - SP417",
+        "desc": "",
+        "img": "https://drive.google.com/file/d/1hRVxKon3UbOxbrQK9DTfj0hEXGIy4kg6/view?usp=sharing",
+        "categories": [
+            "Sample Paper",
+            "Class 10",
+            "Mathematics Standard",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "Class 10",
+        "subject": "Mathematics",
+        "type": "Sample Paper",
+        "price": 299,
+        "skuID": "SP417",
+        "sortNumber": 82,
+        "__v": 0
+    },
+    {
+        "_id": "3",
+        "title": "CBSE English language & Literature Sample Question Paper Class 10 - SP419",
+        "desc": "",
+        "img": "https://drive.google.com/file/d/1lUWmLsQGOGT7VwRgLet8h1AF4_AyxkEZ/view?usp=sharing",
+        "categories": [
+            "Sample Paper",
+            "Class 10",
+            "English Language & Literature",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "Class 10",
+        "subject": "English",
+        "type": "Sample Paper",
+        "price": 299,
+        "skuID": "SP419",
+        "sortNumber": 82,
+        "__v": 0
+    },
+    {
+        "_id": "4",
+        "title": "CBSE Social Science Sample Question Paper Class 10 - SP422",
+        "desc": "",
+        "img": "https://drive.google.com/file/d/1tMGXJbGsV1NXDELn6xaYZ7SuCPgH9xVw/view?usp=sharing",
+        "categories": [
+            "Sample Paper",
+            "Class 10",
+            "Social Science",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "Class 10",
+        "subject": "Social Science",
+        "type": "Sample Paper",
+        "price": 299,
+        "skuID": "SP422",
+        "sortNumber": 82,
+        "__v": 0
     }
 ]
