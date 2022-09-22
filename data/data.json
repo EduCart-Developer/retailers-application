@@ -1732,7 +1732,7 @@
         "type": "Sample Paper",
         "price": 299,
         "skuID": "SP416",
-        "sortNumber": 82,
+        "sortNumber": 90,
         "__v": 0
     },
     {
@@ -1752,7 +1752,7 @@
         "type": "Sample Paper",
         "price": 299,
         "skuID": "SP417",
-        "sortNumber": 82,
+        "sortNumber": 90,
         "__v": 0
     },
     {
@@ -1772,7 +1772,7 @@
         "type": "Sample Paper",
         "price": 299,
         "skuID": "SP419",
-        "sortNumber": 82,
+        "sortNumber": 90,
         "__v": 0
     },
     {
@@ -1792,7 +1792,7 @@
         "type": "Sample Paper",
         "price": 299,
         "skuID": "SP422",
-        "sortNumber": 82,
+        "sortNumber": 90,
         "__v": 0
     }
 ]
