@@ -33,7 +33,7 @@ let total = 0;
 let bookQty = 0;
 Array.from(cart).forEach((e,idx)=>{
     html += `
-    <tr>
+    <tr style = "font-size:12px;">
         <td class="serial">${idx+1}</td>    
         <td class="desc">${e.description}</td>
         <td class="unit">${e.price}</td>
@@ -50,12 +50,12 @@ totalDiscount = parseFloat(totalDiscount).toFixed(2);
 let grandTotal = total - totalDiscount;
 grandTotal = parseFloat(grandTotal).toFixed(2);
 html += `
-            <tr>
+            <tr style = "font-weight:600;font-size:13px;">
               <td colspan="3" style="padding-right:50px">SUBTOTAL</td>
               <td>${bookQty}</td>
               <td id = "subtotal">${total}</td>
             </tr>
-            <tr>
+            <tr style = "font-weight:600;font-size:13px;">
               <td colspan="4" style="padding-right:80px">DISCOUNT <span id = "discount-rate">${discount}%</span></td>
               <td id="discounttotal">${totalDiscount}</td>
             </tr>
@@ -63,7 +63,7 @@ html += `
               <td colspan="4" style="padding-right:140px">TOTAL QUANTITY</td>
               <td>${bookQty}</td>
             </tr>-->
-            <tr>
+            <tr style = "font-weight:600;border-top: 1px solid black;font-size:13px;">
               <td colspan="4" class="grand total" style="padding-right:70px">GRAND TOTAL</td>
               <td id="grandtotal">${grandTotal}</td>
             </tr>
