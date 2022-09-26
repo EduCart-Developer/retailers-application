@@ -1876,5 +1876,27 @@
         "sortNumber": 90,
         "subjectTitle" : "Social Science",
         "__v": 0
+    },
+    {
+        "_id": "5",
+        "title": "CBSE Bundle Sample Paper Class 10 - SP449",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1dlYAQS412pOYD5ZYLR5ziD4W4tSLST06&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Bundle",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Bundle",
+        "type": "Sample Papers",
+        "price": 1196,
+        "skuID": "SP449",
+        "sortNumber": 98,
+        "subjectTitle" : "Bundle",
+        "__v": 0
     }
 ]
+
