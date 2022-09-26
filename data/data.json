@@ -1098,7 +1098,7 @@
         "price": 449,
         "skuID": "SP380",
         "sortNumber": 50,
-        "subjectTitle" : "Hindi",
+        "subjectTitle" : "Hindi A",
         "createdAt": "2022-07-09T08:25:51.879Z",
         "updatedAt": "2022-07-09T08:25:51.879Z",
         "__v": 0
@@ -1121,7 +1121,7 @@
         "price": 449,
         "skuID": "SP381",
         "sortNumber": 49,
-        "subjectTitle" : "Hindi",
+        "subjectTitle" : "Hindi B",
         "createdAt": "2022-07-09T08:29:28.009Z",
         "updatedAt": "2022-07-09T08:29:28.009Z",
         "__v": 0
@@ -1328,7 +1328,7 @@
         "price": 449,
         "skuID": "SP360",
         "sortNumber": 65,
-        "subjectTitle" : "Hindi",
+        "subjectTitle" : "Hindi A",
         "createdAt": "2022-07-30T08:22:22.667Z",
         "updatedAt": "2022-07-30T08:22:22.667Z",
         "__v": 0
@@ -1427,7 +1427,7 @@
     },
     {
         "_id": "62e4eb4494766bd77dff2dc5",
-        "title": "CBSE Hindi Question Bank Class 9 - SP367",
+        "title": "CBSE Hindi B Question Bank Class 9 - SP367",
         "desc": "",
         "img": "https://drive.google.com/uc?id=1ruGL1gLCFWGfl5E8_gxTvZUAdkat8IuV&export=download",
         "categories": [
@@ -1443,7 +1443,7 @@
         "price": 449,
         "skuID": "SP367",
         "sortNumber": 64,
-        "subjectTitle" : "Hindi",
+        "subjectTitle" : "Hindi B",
         "createdAt": "2022-07-30T08:26:44.481Z",
         "updatedAt": "2022-07-30T08:26:44.481Z",
         "__v": 0
@@ -1832,7 +1832,7 @@
         "price": 299,
         "skuID": "SP417",
         "sortNumber": 90,
-        "subjectTitle" : "Mathematics",
+        "subjectTitle" : "Maths Standard",
         "__v": 0
     },
     {
