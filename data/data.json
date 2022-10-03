@@ -1918,6 +1918,111 @@
         "sortNumber": 105,
         "subjectTitle" : "English",
         "__v": 0
+    },
+    {
+        "_id": "11",
+        "title": "CBSE Hindi Sample Paper Class 12 - SP430",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1P_7cpTulsqAXm4EhGWeZjn6PhJ6hDNc7&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Hindi",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Hindi",
+        "type": "Sample Papers",
+        "price": 249,
+        "skuID": "SP430",
+        "sortNumber": 104,
+        "subjectTitle" : "Hindi",
+        "__v": 0
+    },
+    {
+        "_id": "15",
+        "title": "CBSE Mathematics Sample Paper Class 12 - SP428",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1Vxlytvns5NDGqXKqCFohe64cVl6XLctb&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Mathematics",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Mathematics",
+        "type": "Sample Papers",
+        "price": 349,
+        "skuID": "SP428",
+        "sortNumber": 108,
+        "subjectTitle" : "Mathematics",
+        "__v": 0
+    },
+    {
+        "_id": "13",
+        "title": "CBSE Biology Sample Paper Class 12 - SP427",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1C8wcM57aWRXnl8rGRDUQNPfugtDMf0fC&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Biology",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Biology",
+        "type": "Sample Papers",
+        "price": 349,
+        "skuID": "SP427",
+        "sortNumber": 106,
+        "subjectTitle" : "Biology",
+        "__v": 0
+    },
+    {
+        "_id": "14",
+        "title": "CBSE Chemistry Sample Paper Class 12 - SP426",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1dsNqXXtdrGtQ1JgA7IMXdJ2DiVnd7sgv&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Chemistry",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Chemistry",
+        "type": "Sample Papers",
+        "price": 329,
+        "skuID": "SP426",
+        "sortNumber": 107,
+        "subjectTitle" : "Chemistry",
+        "__v": 0
+    },
+    {
+        "_id": "16",
+        "title": "CBSE Physics Sample Paper Class 12 - SP425",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1WVajXgCK1x3De1Lql0jmyrwZEl_aNqLK&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Physics",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Physics",
+        "type": "Sample Papers",
+        "price": 349,
+        "skuID": "SP425",
+        "sortNumber": 109,
+        "subjectTitle" : "Physics",
+        "__v": 0
     }
     
 ]
