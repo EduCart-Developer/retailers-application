@@ -2130,27 +2130,6 @@
         "__v": 0
     },
     {
-        "_id": "17",
-        "title": "CBSE Bundle PCME Sample Paper Class 12 - SP455",
-        "desc": "",
-        "img": " https://drive.google.com/uc?id=1Lyf9IuOldGhksixDv1EjpJv2eNtAjpko&export=download",
-        "categories": [
-            "Sample Papers",
-            "Class 12",
-            "Bundle",
-            "CBSE"
-        ],
-        "board": "CBSE",
-        "class": "12",
-        "subject": "Bundle",
-        "type": "Sample Papers",
-        "price": 1,296,
-        "skuID": "SP455",
-        "sortNumber": 110,
-        "subjectTitle" : "Bundle",
-        "__v": 0
-    },
-    {
         "_id": "21",
         "title": "CBSE Physics Sample Paper Class 11 - SP437",
         "desc": "",
