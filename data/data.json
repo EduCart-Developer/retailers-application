@@ -2023,6 +2023,111 @@
         "sortNumber": 109,
         "subjectTitle" : "Physics",
         "__v": 0
+    },
+    {
+        "_id": "10",
+        "title": "CBSE Accountancy Sample Paper Class 12 - SP431",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1sx2h_1uYafXMdMPgfqqj2HUAJMJAmr8r&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 12",
+            "Accountancy",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "12",
+        "subject": "Accountancy",
+        "type": "Sample Papers",
+        "price": 349,
+        "skuID": "SP431",
+        "sortNumber": 103,
+        "subjectTitle" : "Accountancy",
+        "__v": 0
+    },
+    {
+        "_id": "9",
+        "title": "CBSE Business Studies Sample Paper Class 12 - SP432",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1xcAJd5IS9RhtJFF9dIHJvzmRbst2t02g&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 12",
+            "Business Studies",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "12",
+        "subject": "Business Studies",
+        "type": "Sample Papers",
+        "price": 249,
+        "skuID": "SP432",
+        "sortNumber": 102,
+        "subjectTitle" : "Business Studies",
+        "__v": 0
+    },
+    {
+        "_id": "8",
+        "title": "CBSE Economics Sample Paper Class 12 - SP433",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1plBypIapfYvbYINsvSNWVLltYbVoORhO&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 12",
+            "Economics",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "12",
+        "subject": "Economics",
+        "type": "Sample Papers",
+        "price": 249,
+        "skuID": "SP433",
+        "sortNumber": 101,
+        "subjectTitle" : "Economics",
+        "__v": 0
+    },
+    {
+        "_id": "6",
+        "title": "CBSE Physical Education Sample Paper Class 12 - SP434",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1Xnr0eWjh-n29GAd2YKhAOw4oJIeTzQub&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 12",
+            "Physical Education",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "12",
+        "subject": "Physical Education",
+        "type": "Sample Papers",
+        "price": 249,
+        "skuID": "SP434",
+        "sortNumber": 99,
+        "subjectTitle" : "Physical Education",
+        "__v": 0
+    },
+    {
+        "_id": "7",
+        "title": "CBSE Psychology Sample Paper Class 12 - SP435",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1JqqPm013JnKTYte88aDNR4MidUA5U2Nn&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 12",
+            "Psychology",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "12",
+        "subject": "Psychology",
+        "type": "Sample Papers",
+        "price": 249,
+        "skuID": "SP435",
+        "sortNumber": 100,
+        "subjectTitle" : "Psychology",
+        "__v": 0
     }
     
 ]
