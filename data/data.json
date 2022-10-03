@@ -1897,6 +1897,27 @@
         "sortNumber": 98,
         "subjectTitle" : "Bundle",
         "__v": 0
-    }
+    },
+    {
+        "_id": "6",
+        "title": "CBSE Physical Education Sample Paper Class 12 - SP434",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1Xnr0eWjh-n29GAd2YKhAOw4oJIeTzQub&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Physical Education",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Physical Education",
+        "type": "Sample Papers",
+        "price": 249,
+        "skuID": "SP434",
+        "sortNumber": 99,
+        "subjectTitle" : "Physical Education",
+        "__v": 0
+    
 ]
 
