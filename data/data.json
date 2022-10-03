@@ -1899,24 +1899,24 @@
         "__v": 0
     },
     {
-        "_id": "6",
-        "title": "CBSE Physical Education Sample Paper Class 12 - SP434",
+        "_id": "12",
+        "title": "CBSE English Sample Paper Class 12 - SP429",
         "desc": "",
-        "img": " https://drive.google.com/uc?id=1Xnr0eWjh-n29GAd2YKhAOw4oJIeTzQub&export=download",
+        "img": " https://drive.google.com/uc?id=1qjbh_5U8weaJeh92eaYA5V-DX6rD71BO&export=download",
         "categories": [
             "Sample Papers",
             "Class 10",
-            "Physical Education",
+            "English",
             "CBSE"
         ],
         "board": "CBSE",
         "class": "10",
-        "subject": "Physical Education",
+        "subject": "English",
         "type": "Sample Papers",
-        "price": 249,
-        "skuID": "SP434",
-        "sortNumber": 99,
-        "subjectTitle" : "Physical Education",
+        "price": 269,
+        "skuID": "SP429",
+        "sortNumber": 105,
+        "subjectTitle" : "English",
         "__v": 0
     }
     
