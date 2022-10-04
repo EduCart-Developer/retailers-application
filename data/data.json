@@ -2380,6 +2380,69 @@
         "sortNumber": 90,
         "subjectTitle" : "Maths Basic",
         "__v": 0
+    },
+    {
+        "_id": "29",
+        "title": "CBSE Hindi A Sample Paper Class 10 - SP420",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1ZL1nDeZzxGRz7fmreI77z1gNuug7hRvU&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Hindi A",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Hindi",
+        "type": "Sample Papers",
+        "price": 249,
+        "skuID": "SP420",
+        "sortNumber": 90,
+        "subjectTitle" : "Hindi A",
+        "__v": 0
+    },
+    {
+        "_id": "30",
+        "title": "CBSE Hindi B Sample Paper Class 10 - SP421",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1zKjj_uqCyJ82TIflaM0RzlAatUCZIaDj&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Hindi B",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Hindi",
+        "type": "Sample Papers",
+        "price": 249,
+        "skuID": "SP421",
+        "sortNumber": 90,
+        "subjectTitle" : "Hindi B",
+        "__v": 0
+    },
+    {
+        "_id": "31",
+        "title": "CBSE Computer Sample Paper Class 10 - SP436",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1LfLvTB6A5RBibBstWftRdNRElSnk8nFU&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Computer",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Computer",
+        "type": "Sample Papers",
+        "price": 249,
+        "skuID": "SP436",
+        "sortNumber": 90,
+        "subjectTitle" : "Computer",
+        "__v": 0
     }
     
 ]
