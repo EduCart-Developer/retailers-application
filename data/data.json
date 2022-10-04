@@ -2359,6 +2359,27 @@
         "sortNumber": 118,
         "subjectTitle" : "Social Science",
         "__v": 0
+    },
+    {
+        "_id": "28",
+        "title": "CBSE Mathematics Basic Sample Paper Class 10 - SP418",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1Myiz1DNKyCn-nB-PBzhiUwH007Req9uh&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Mathematics Basic",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Mathematics",
+        "type": "Sample Papers",
+        "price": 299,
+        "skuID": "SP418",
+        "sortNumber": 90,
+        "subjectTitle" : "Maths Basic",
+        "__v": 0
     }
     
 ]
