@@ -2443,6 +2443,48 @@
         "sortNumber": 90,
         "subjectTitle" : "Computer",
         "__v": 0
+    },
+    {
+        "_id": "17",
+        "title": "CBSE Bundle PCBE Sample Paper Class 12 - SP456",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1Lyf9IuOldGhksixDv1EjpJv2eNtAjpko&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 12",
+            "Bundle PCBE",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "12",
+        "subject": "Bundle",
+        "type": "Sample Papers",
+        "price": 1296,
+        "skuID": "SP456",
+        "sortNumber": 110,
+        "subjectTitle" : "Bundle PCBE",
+        "__v": 0
+    },
+    {
+        "_id": "32",
+        "title": "CBSE Bundle PCME Sample Paper Class 12 - SP455",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1WoPnHDNoBtsFFpi-ryfrw2RxYuKizJ8G&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 12",
+            "Bundle PCME",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "12",
+        "subject": "Bundle",
+        "type": "Sample Papers",
+        "price": 1296,
+        "skuID": "SP455",
+        "sortNumber": 110,
+        "subjectTitle" : "Bundle PCME",
+        "__v": 0
     }
     
 ]
