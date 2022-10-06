@@ -2485,6 +2485,27 @@
         "sortNumber": 110,
         "subjectTitle" : "Bundle PCME",
         "__v": 0
+    },
+    {
+        "_id": "33",
+        "title": "CBSE Sanskrit Sample Paper Class 10 - SP424",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1ekC2FjzhjupH5hdZCgIxxFWG-bw6xBHS&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Sanskrit",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Sanskrit",
+        "type": "Sample Papers",
+        "price": 199,
+        "skuID": "SP424",
+        "sortNumber": 90,
+        "subjectTitle" : "Sanskrit",
+        "__v": 0
     }
     
 ]
