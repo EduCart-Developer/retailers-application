@@ -2506,6 +2506,27 @@
         "sortNumber": 90,
         "subjectTitle" : "Sanskrit",
         "__v": 0
+    },
+    {
+        "_id": "34",
+        "title": "CBSE Applied Mathematics Sample Paper Class 12 - SP448",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1iJm5gxxMh8GJzW49ndfMKSuNaKnaAxmY&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 12",
+            "Applied Mathematics",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "12",
+        "subject": "Mathematics",
+        "type": "Sample Papers",
+        "price": 249,
+        "skuID": "SP448",
+        "sortNumber": 108,
+        "subjectTitle" : "Applied Mathematics",
+        "__v": 0
     }
     
 ]
