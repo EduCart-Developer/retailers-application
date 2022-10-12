@@ -2548,6 +2548,27 @@
         "sortNumber": 122,
         "subjectTitle" : "Bundle",
         "__v": 0
+    },
+    {
+        "_id": "36",
+        "title": "CBSE Bundle Sample Paper Class 11 - SP464",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1eyIcnMEOCLHunCmv8lSpP1Nsc2ipFvQx&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 11",
+            "Bundle",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "11",
+        "subject": "Bundle",
+        "type": "Sample Papers",
+        "price": 1006,
+        "skuID": "SP464",
+        "sortNumber": 115,
+        "subjectTitle" : "Bundle",
+        "__v": 0
     }
     
 ]
