@@ -2527,6 +2527,27 @@
         "sortNumber": 108,
         "subjectTitle" : "Applied Mathematics",
         "__v": 0
+    },
+    {
+        "_id": "35",
+        "title": "CBSE Bundle Sample Paper Class 9 - SP459",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1y_YtSf14jXjcN4fy-MOWtN6ICHAww34t&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 9",
+            "Bundle",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "9",
+        "subject": "Bundle",
+        "type": "Sample Papers",
+        "price": 996,
+        "skuID": "SP459",
+        "sortNumber": 119,
+        "subjectTitle" : "Bundle",
+        "__v": 0
     }
     
 ]
