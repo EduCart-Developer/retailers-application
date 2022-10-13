@@ -132,10 +132,41 @@ let selectBoard = "All";
 let selectType = "All";
 let selectSubject = "All";
 
+let subArr = [
+    ["Science","Mathematics","English","Hindi","Social Science"],
+    ["Science","Mathematics","English","Hindi","Social Science"],
+    ["Science","Mathematics","English","Hindi","Social Science","Computer","Sanskrit","Bundle","Physics","Biology","Chemistry"],
+    ["Physics","Chemistry","Biology","Mathematics","English"],
+    ["Physics","Chemistry","Biology","Mathematics","English","Accoutancy","Business Studies","Economics","Physical Education","Psychology","Bundle"],
+    ["Physics","Chemistry","Biology"],
+    ["Physics","Chemistry","Biology","Mathematics","English","Hindi","General Test","Accountancy","Business Studies","Economics"]
+]
+
+
 //filter functions for classes
 function pickClass(value) {
     // console.log(value,booksItem);
     selectClass = value;
+    let selClass;
+    console.log(typeof(value));
+    switch (value)
+    {
+        case "8": selClass = subArr[0];break;
+        case "9": selClass = subArr[1];break;
+        case "10": selClass = subArr[2];break;
+        case "11": selClass = subArr[3];break;
+        case "12": selClass = subArr[4];break;
+        case "NEET": selClass = subArr[5];break;
+        case "CUET": selClass = subArr[6];break;
+        default: selClass = ["Mathematics","Science","Physics","Chemistry","Biology","Social Science","English","Hindi","Bundle","Accountancy","Economics","Computer","Sanskrit"];
+    };
+
+    let changeSub = document.getElementById("pickSubject");
+    let subHtml = `<option value="All">All Subjects</option>`;
+    selClass.forEach((ele)=>{
+        subHtml += `<option value="${ele}">${ele}</option>`;
+    });
+    changeSub.innerHTML = subHtml;
     filterBook();
 }
 
