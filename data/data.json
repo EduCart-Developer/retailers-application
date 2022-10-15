@@ -2569,6 +2569,27 @@
         "sortNumber": 115,
         "subjectTitle" : "Bundle",
         "__v": 0
+    },
+    {
+        "_id": "37",
+        "title": "CBSE Information Technology Sample Paper Class 10 - SP423",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1T8IeE07ZHVGe-Ah01QcLmZ0-YCbYLnmj&export=download",
+        "categories": [
+            "Sample Papers",
+            "Class 10",
+            "Information Technology",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "10",
+        "subject": "Computer",
+        "type": "Sample Papers",
+        "price": 199,
+        "skuID": "SP423",
+        "sortNumber": 90,
+        "subjectTitle" : "Information Technology",
+        "__v": 0
     }
     
 ]
