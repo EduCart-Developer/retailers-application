@@ -2590,6 +2590,26 @@
         "sortNumber": 90,
         "subjectTitle" : "Information Technology",
         "__v": 0
+    },
+    {
+        "_id": "38",
+        "title": "NEET ABHYAAS Unit-wise Entrance Exam NEET - EB019",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=11jkcIUa045XJ3SRqeBgTr-5nM8tKO0dd&export=download",
+        "categories": [
+            "Entrance Exam",
+            "NEET",
+            "ABHYAAS Unit-wise",
+            "NEET"
+        ],
+        "board": "NEET",
+        "class": "NEET",
+        "subject": "All Subjects",
+        "type": "Entrance Exam",
+        "price": 1199,
+        "skuID": "EB019",
+        "sortNumber": 123,
+        "subjectTitle" : "ABHYAAS Unit-wise",
+        "__v": 0
     }
-    
 ]
