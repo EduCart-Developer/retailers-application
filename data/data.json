@@ -2611,5 +2611,26 @@
         "sortNumber": 123,
         "subjectTitle" : "ABHYAAS Unit-wise",
         "__v": 0
+    },
+    {
+        "_id": "39",
+        "title": "NEET Fully Solved Papers All Subjects Entrance Exam NEET - CB1144",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=13E_ZseJoWBnKQo3QgdXPxQTRs2wlv0Ox&export=download",
+        "categories": [
+            "Entrance Exam",
+            "NEET",
+            "All Subjects",
+            "NEET"
+        ],
+        "board": "NEET",
+        "class": "NEET",
+        "subject": "All Subjects",
+        "type": "Entrance Exam",
+        "price": 699,
+        "skuID": "CB1144",
+        "sortNumber": 124,
+        "subjectTitle" : "All Subjects",
+        "__v": 0
     }
 ]
