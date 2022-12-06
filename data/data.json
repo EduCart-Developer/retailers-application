@@ -2674,5 +2674,68 @@
         "sortNumber": 126,
         "subjectTitle" : "Biology",
         "__v": 0
+    },
+    {
+        "_id": "42",
+        "title": "NEET Chemistry Solved paper NEET - EB023",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1QpnRDukPVmM6lG90Zsv6iGv_Jh8VpkuO&export=download",
+        "categories": [
+            "Entrance Exam",
+            "NEET",
+            "Chemistry",
+            "NEET"
+        ],
+        "board": "NEET",
+        "class": "NEET",
+        "subject": "Chemistry",
+        "type": "Entrance Exam",
+        "price": 499,
+        "skuID": "EB023",
+        "sortNumber": 128,
+        "subjectTitle" : "Solved paper",
+        "__v": 0
+    },
+    {
+        "_id": "43",
+        "title": "NEET Physics Solved paper NEET - EB022",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1ZbQ5jWUHgScrNMYDJvEILtOWBLcU2kCj&export=download",
+        "categories": [
+            "Entrance Exam",
+            "NEET",
+            "Physics",
+            "NEET"
+        ],
+        "board": "NEET",
+        "class": "NEET",
+        "subject": "Physics",
+        "type": "Entrance Exam",
+        "price": 499,
+        "skuID": "EB022",
+        "sortNumber": 129,
+        "subjectTitle" : "Solved paper",
+        "__v": 0
+    },
+    {
+        "_id": "44",
+        "title": "NEET Biology Solved paper NEET - EB021",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1k6_0OHhFQEeQnd6-dDvJegb1Otm1Dudm&export=download",
+        "categories": [
+            "Entrance Exam",
+            "NEET",
+            "Biology",
+            "NEET"
+        ],
+        "board": "NEET",
+        "class": "NEET",
+        "subject": "Biology",
+        "type": "Entrance Exam",
+        "price": 599,
+        "skuID": "EB021",
+        "sortNumber": 130,
+        "subjectTitle" : "Solved paper",
+        "__v": 0
     }
 ]
