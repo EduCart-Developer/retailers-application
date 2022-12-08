@@ -2737,5 +2737,26 @@
         "sortNumber": 130,
         "subjectTitle" : "Solved paper",
         "__v": 0
+    },
+    {
+        "_id": "45",
+        "title": "NEET Bundle Solved paper NEET - EB024",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1UkwcY9EhXaF1BhVwImtb4z0DCqOLcULw&export=download",
+        "categories": [
+            "Entrance Exam",
+            "NEET",
+            "Bundle",
+            "NEET"
+        ],
+        "board": "NEET",
+        "class": "NEET",
+        "subject": "Bundle",
+        "type": "Entrance Exam",
+        "price": 1697,
+        "skuID": "EB024",
+        "sortNumber": 131,
+        "subjectTitle" : "Solved paper",
+        "__v": 0
     }
 ]
