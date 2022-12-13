@@ -2758,5 +2758,26 @@
         "sortNumber": 131,
         "subjectTitle" : "Solved paper",
         "__v": 0
+    },
+    {
+        "_id": "46",
+        "title": "CBSE All Subjects Final Revision Class 10 - SP477",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1dF1SF_qkhSH2KdF7yBUMnQJA3IOV577A&export=download",
+        "categories": [
+            "All Types",
+            "Class 10",
+            "All Subject",
+            "CBSE"
+        ],
+        "board": "CBSE",
+        "class": "Class 10",
+        "subject": "All Subject",
+        "type": "All Types",
+        "price": 699,
+        "skuID": "SP477",
+        "sortNumber": 132,
+        "subjectTitle" : "Final Revision",
+        "__v": 0
     }
 ]
