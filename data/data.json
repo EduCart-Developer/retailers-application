@@ -208,7 +208,7 @@
     },
     {
         "_id": "62bd9bd59ddfe04e3c246e9e",
-        "title": "NCERT Mathematics NCERT Exemplar Class 10 - ESP110",
+        "title": "NCERT Mathematics NCERT Exemplar Class 10 - SP110",
         "desc": "",
         "img": "https://drive.google.com/uc?id=1crUKVSqbSQlITlUSARKnarvMyOZrnYpR&export=download",
         "categories": [
@@ -222,7 +222,7 @@
         "subject": "Mathematics",
         "type": "NCERT Exemplar",
         "price": 279,
-        "skuID": "ESP110",
+        "skuID": "SP110",
         "sortNumber": 18,
         "subjectTitle" : "Mathematics",
         "createdAt": "2022-06-30T12:49:25.711Z",
@@ -231,7 +231,7 @@
     },
     {
         "_id": "62c02ea9e99a78ed45b23c38",
-        "title": "NCERT Science NCERT Exemplar Class 10 - ESP109",
+        "title": "NCERT Science NCERT Exemplar Class 10 - SP109",
         "desc": "",
         "img": "https://drive.google.com/uc?id=15qSlRK-pOJMQH4XHkGMSCI8AlztkgmT-&export=download",
         "categories": [
@@ -245,7 +245,7 @@
         "subject": "Science",
         "type": "NCERT Exemplar",
         "price": 229,
-        "skuID": "ESP109",
+        "skuID": "SP109",
         "sortNumber": 17,
         "subjectTitle" : "Science",
         "createdAt": "2022-07-02T11:40:25.640Z",
