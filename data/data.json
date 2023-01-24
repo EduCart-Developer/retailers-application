@@ -2782,7 +2782,7 @@
     },
     {
         "_id": "47",
-        "title": "NEET Abhyaas 1-10 All Subjects Mock Paper NEET - EB025",
+        "title": "NEET Abhyaas 1-10 Mock Paper NEET - EB025",
         "desc": "",
         "img": " https://drive.google.com/uc?id=16cfd6gpPe_MeMAw_oQLa4Au779rDHKdD&export=download",
         "categories": [
@@ -2798,6 +2798,48 @@
         "price": 599,
         "skuID": "EB025",
         "sortNumber": 134,
+        "subjectTitle" : "Abhyaas Mock Paper",
+        "__v": 0
+    },
+    {
+        "_id": "48",
+        "title": "NEET Abhyaas 11-20 Mock Paper NEET - EB026",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=10JLqb_Vr8Iv0MlfvaZf_7--DPx59fgGd&export=download",
+        "categories": [
+            "Entrance Exam",
+            "NEET",
+            "All Subject",
+            "NEET"
+        ],
+        "board": "NEET",
+        "class": "NEET",
+        "subject": "All Subject",
+        "type": "Entrance Exam",
+        "price": 599,
+        "skuID": "EB026",
+        "sortNumber": 133,
+        "subjectTitle" : "Abhyaas Mock Paper",
+        "__v": 0
+    },
+    {
+        "_id": "49",
+        "title": "NEET Abhyaas Bundle 1-20 Mock Paper NEET - EB027",
+        "desc": "",
+        "img": " https://drive.google.com/uc?id=1F6bci2ZTKcr_eDegKczAkKZtiJqDn8za&export=download",
+        "categories": [
+            "Entrance Exam",
+            "NEET",
+            "All Subject",
+            "NEET"
+        ],
+        "board": "NEET",
+        "class": "NEET",
+        "subject": "All Subject",
+        "type": "Entrance Exam",
+        "price": 999,
+        "skuID": "EB027",
+        "sortNumber": 135,
         "subjectTitle" : "Abhyaas Mock Paper",
         "__v": 0
     }
