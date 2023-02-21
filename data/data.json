@@ -575,29 +575,6 @@
         "__v": 0
     },
     {
-        "_id": "62c040ffe99a78ed45b23c6a",
-        "title": "CUET Physics Entrance Exam CUET - EB005",
-        "desc": "",
-        "img": "https://drive.google.com/uc?id=1inH85Z7m-cg2YEgMliy3PfES9BDUt1pK&export=download",
-        "categories": [
-            "Entrance Exam",
-            "CUET",
-            "Physics",
-            "CUET"
-        ],
-        "board": "CUET",
-        "class": "CUET",
-        "subject": "Physics",
-        "type": "Entrance Exam",
-        "price": 149,
-        "skuID": "EB005",
-        "sortNumber": 26,
-        "subjectTitle" : "Physics",
-        "createdAt": "2022-07-02T12:58:39.331Z",
-        "updatedAt": "2022-07-02T12:58:39.331Z",
-        "__v": 0
-    },
-    {
         "_id": "62c0414de99a78ed45b23c6c",
         "title": "CUET Section-II Biology Practice Paper Entrance Exam CUET - EB009N",
         "desc": "",
@@ -713,29 +690,6 @@
         "__v": 0
     },
     {
-        "_id": "62c578ad8e38f03e9d63690a",
-        "title": "CUET Mathematics Entrance Exam CUET - EB012",
-        "desc": "",
-        "img": "https://drive.google.com/uc?id=1cPxsmQXtoPx5Q80Zv2iFoqZR65e6lh4z&export=download",
-        "categories": [
-            "Entrance Exam",
-            "CUET",
-            "Mathematics",
-            "CUET"
-        ],
-        "board": "CUET",
-        "class": "CUET",
-        "subject": "Mathematics",
-        "type": "Entrance Exam",
-        "price": 149,
-        "skuID": "EB012",
-        "sortNumber": 32,
-        "subjectTitle" : "Mathematics",
-        "createdAt": "2022-07-06T11:57:33.449Z",
-        "updatedAt": "2022-07-06T11:57:33.449Z",
-        "__v": 0
-    },
-    {
         "_id": "62c5799b8e38f03e9d63690c",
         "title": "CUET General Test (Hindi Medium) Entrance Exam CUET - EB003N",
         "desc": "",
@@ -782,52 +736,6 @@
         "__v": 0
     },
     {
-        "_id": "62c57a6c8e38f03e9d636910",
-        "title": "CUET Hindi Entrance Exam Class 12 - EB004",
-        "desc": "",
-        "img": "https://drive.google.com/uc?id=1mPG207t-0m4w0G0wba_Tm-JY-jexV-SB&export=download",
-        "categories": [
-            "Entrance Exam",
-            "CUET",
-            "Hindi",
-            "CUET"
-        ],
-        "board": "CUET",
-        "class": "CUET",
-        "subject": "Hindi",
-        "type": "Entrance Exam",
-        "price": 149,
-        "skuID": "EB004",
-        "sortNumber": 35,
-        "subjectTitle" : "Hindi",
-        "createdAt": "2022-07-06T12:05:00.629Z",
-        "updatedAt": "2022-07-06T12:05:00.629Z",
-        "__v": 0
-    },
-    {
-        "_id": "62c57b9a8e38f03e9d636912",
-        "title": "CUET Biology Entrance Exam Class 12 - EB010",
-        "desc": "",
-        "img": "https://drive.google.com/uc?id=1AkpHgFy20YV9HKvZTaAKsqlctglOtNG7&export=download",
-        "categories": [
-            "Entrance Exam",
-            "CUET",
-            "Biology",
-            "CUET"
-        ],
-        "board": "CUET",
-        "class": "CUET",
-        "subject": "Biology",
-        "type": "Entrance Exam",
-        "price": 149,
-        "skuID": "EB010",
-        "sortNumber": 36,
-        "subjectTitle" : "Biology",
-        "createdAt": "2022-07-06T12:10:02.669Z",
-        "updatedAt": "2022-07-06T12:10:02.669Z",
-        "__v": 0
-    },
-    {
         "_id": "62c57c238e38f03e9d636914",
         "title": "CUET Section-II Mathematics Practice Papers Entrance Exam CUET - EB011N",
         "desc": "",
@@ -871,29 +779,6 @@
         "subjectTitle" : "Physics",
         "createdAt": "2022-07-06T12:14:30.994Z",
         "updatedAt": "2022-07-06T12:14:30.994Z",
-        "__v": 0
-    },
-    {
-        "_id": "62c57d238e38f03e9d636918",
-        "title": "CUET Chemistry Entrance Exam Class 12 - EB008",
-        "desc": "",
-        "img": "https://drive.google.com/uc?id=1Zgmx2fFRJsRoUqLzEpwZE8O2V-qaQgmv&export=download",
-        "categories": [
-            "Entrance Exam",
-            "CUET",
-            "Chemistry",
-            "CUET"
-        ],
-        "board": "CUET",
-        "class": "CUET",
-        "subject": "Chemistry",
-        "type": "Entrance Exam",
-        "price": 149,
-        "skuID": "EB008",
-        "sortNumber": 39,
-        "subjectTitle" : "Chemistry",
-        "createdAt": "2022-07-06T12:16:35.242Z",
-        "updatedAt": "2022-07-06T12:16:35.242Z",
         "__v": 0
     },
     {
