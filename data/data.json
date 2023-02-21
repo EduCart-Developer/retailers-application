@@ -2658,5 +2658,27 @@
         "sortNumber": 135,
         "subjectTitle" : "Abhyaas Mock Paper",
         "__v": 0
+    },
+    {
+        "_id": "50",
+        "title": "CUET Section 2nd History Final Revision Entrance Exam CUET - EB038",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1O54_P0GXi27LX1QXYHQsyWPSWYe-DBSp&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "History",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "History",
+        "type": "Entrance Exam",
+        "price": 249,
+        "skuID": "EB038",
+        "sortNumber": 156,
+        "subjectTitle" : "History Final Revision",
+        "__v": 0
     }
+
 ]
