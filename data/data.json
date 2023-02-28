@@ -2661,7 +2661,7 @@
     },
     {
         "_id": "50",
-        "title": "CUET Section 2nd History Final Revision Entrance Exam CUET - EB038",
+        "title": "CUET History Final Revision Section II Entrance Exam CUET - EB038",
         "desc": "",
         "img": "https://drive.google.com/uc?id=1O54_P0GXi27LX1QXYHQsyWPSWYe-DBSp&export=download",
         "categories": [
@@ -2679,6 +2679,47 @@
         "sortNumber": 156,
         "subjectTitle" : "History Final Revision",
         "__v": 0
+    },
+    {
+        "_id": "51",
+        "title": "CUET Political Science Final Revision Section II Entrance Exam CUET - EB028",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1YrOuEsrnYV-YV5zP4dP5le4eQh34GufP&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "All Subject",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "All Subject",
+        "type": "Entrance Exam",
+        "price": 249,
+        "skuID": "EB028",
+        "sortNumber": 146,
+        "subjectTitle" : "Political Science Final Revision",
+        "__v": 0
+    },
+    {
+        "_id": "52",
+        "title": "CUET General Test Final Revision Section III Entrance Exam CUET - EB039",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1KzBFhgNxlZmdj7B4y1d2pgpLzEjkdTou&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "All Subject",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "All Subject",
+        "type": "Entrance Exam",
+        "price": 599,
+        "skuID": "EB039",
+        "sortNumber": 157,
+        "subjectTitle" : "General Test Final Revision",
+        "__v": 0
     }
-
 ]
