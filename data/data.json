@@ -2721,5 +2721,194 @@
         "sortNumber": 157,
         "subjectTitle" : "General Test Final Revision",
         "__v": 0
+    },
+    {
+        "_id": "53",
+        "title": "CUET Mathematics Final Revision Section II Entrance Exam CUET - EB037",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=16uqkCiIiakI_66Wh32gBaRapu8rKg7kq&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "Mathematics",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "Mathematics",
+        "type": "Entrance Exam",
+        "price": 329,
+        "skuID": "EB037",
+        "sortNumber": 165,
+        "subjectTitle" : "Mathematics Final Revision",
+        "__v": 0
+    },
+    {
+        "_id": "54",
+        "title": "CUET Business Studies Final Revision Section II Entrance Exam CUET - EB036",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=16TYbmRVeveJWqwSWwfzPEaGsuwkPEGN5&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "All Subject",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "All Subject",
+        "type": "Entrance Exam",
+        "price": 269,
+        "skuID": "EB036",
+        "sortNumber": 158,
+        "subjectTitle" : "Business Studies Final Revision",
+        "__v": 0
+    },
+    {
+        "_id": "55",
+        "title": "CUET Economics Final Revision Section II Entrance Exam CUET - EB035",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1soPexxr013cVBhL--2MgBpEVtxTzvGAN&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "All Subject",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "All Subject",
+        "type": "Entrance Exam",
+        "price": 249,
+        "skuID": "EB035",
+        "sortNumber": 160,
+        "subjectTitle" : "Economics Final Revision",
+        "__v": 0
+    },
+    {
+        "_id": "56",
+        "title": "CUET English Final Revision Section IA Entrance Exam CUET - EB034",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=10yoEGTqgZUUqgnqTZ2ZFudzXez8qglNQ&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "English",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "English",
+        "type": "Entrance Exam",
+        "price": 269,
+        "skuID": "EB034",
+        "sortNumber": 161,
+        "subjectTitle" : "English Final Revision",
+        "__v": 0
+    },
+    {
+        "_id": "57",
+        "title": "CUET Biology Final Revision Section II Entrance Exam CUET - EB033",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1BG4rImmIhNaNEZspFb1dU9TgxDyNxHW4&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "Biology",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "Biology",
+        "type": "Entrance Exam",
+        "price": 359,
+        "skuID": "EB033",
+        "sortNumber": 162,
+        "subjectTitle" : "Biology Final Revision",
+        "__v": 0
+    },
+    {
+        "_id": "58",
+        "title": "CUET Chemistry Final Revision Section II Entrance Exam CUET - EB032",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=10SyRAkkC2tfltFEeZ-4Z936EMLHD-uGJ&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "Chemistry",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "Chemistry",
+        "type": "Entrance Exam",
+        "price": 329,
+        "skuID": "EB032",
+        "sortNumber": 163,
+        "subjectTitle" : "Chemistry Final Revision",
+        "__v": 0
+    },
+    {
+        "_id": "59",
+        "title": "CUET Physics Final Revision Section II Entrance Exam CUET - EB031",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1ZSJyrJTq9SXFcg2KXVJa3cvIOUypRNTC&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "Physics",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "Physics",
+        "type": "Entrance Exam",
+        "price": 329,
+        "skuID": "EB031",
+        "sortNumber": 164,
+        "subjectTitle" : "Physics Final Revision",
+        "__v": 0
+    },
+    {
+        "_id": "60",
+        "title": "CUET Geography Final Revision Section II Entrance Exam CUET - EB029",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1Bx7oCGBj42XqBwkMkQ1MOQwTehMl4R8x&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "All Subject",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "All Subject",
+        "type": "Entrance Exam",
+        "price": 249,
+        "skuID": "EB029",
+        "sortNumber": 157,
+        "subjectTitle" : "Geography Final Revision",
+        "__v": 0
+    },
+    {
+        "_id": "61",
+        "title": "CUET Accountancy Final Revision Section II Entrance Exam CUET - EB040",
+        "desc": "",
+        "img": "https://drive.google.com/uc?id=1foVfnWX7eai5uXDIzbZvQm-dhBi-gbBR&export=download",
+        "categories": [
+            "Entrance Exam",
+            "CUET",
+            "All Subject",
+            "CUET"
+        ],
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "All Subject",
+        "type": "Entrance Exam",
+        "price": 279,
+        "skuID": "EB040",
+        "sortNumber": 159,
+        "subjectTitle" : "Accountancy Final Revision",
+        "__v": 0
     }
 ]
