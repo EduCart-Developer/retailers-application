@@ -647,6 +647,19 @@
   "sortNumber": 169
  },
  {
+  "title": "CBSE Mathematics (GANIT) Question Bank Class 10 - SP507",
+  "img": "https:\/\/drive.google.com\/uc?id=1Kktgf7Pkl9OhUl9s4Qen0DSMBhyTTNSe&export=download",
+  "categories": "Question Bank",
+  "board": "CBSE",
+  "class": "10",
+  "subject": "Mathematics",
+  "type": "Question Bank",
+  "price": 499,
+  "skuID": "SP507",
+  "subjectTitle": "Mathematics (Hindi Medium)",
+  "sortNumber": 169
+ },
+ {
   "_id": "62c939ba3800f9881b5ea54d",
   "title": "CBSE English Question Bank Class 10 - SP486",
   "img": "https:\/\/drive.google.com\/uc?id=1HbkOmj_drSlyqGxL_L6me6TunruMCXLO&export=download",
@@ -678,6 +691,19 @@
   "createdAt": "2022-07-09T08:21:15.623Z",
   "updatedAt": "2022-07-09T08:21:15.623Z",
   "__v": 0,
+  "sortNumber": 167
+ },
+ {
+  "title": "CBSE Social Science (SAMAJIK VIGYAN) Question Bank Class 10 - SP509",
+  "img": "https:\/\/drive.google.com\/uc?id=12YSFesB9wux38AcheDEb2l3Oaw9Bb0rb&export=download",
+  "categories": "Question Bank",
+  "board": "CBSE",
+  "class": "10",
+  "subject": "Social Science",
+  "type": "Question Bank",
+  "price": 599,
+  "skuID": "SP509",
+  "subjectTitle": "Social Science (Hindi Medium)",
   "sortNumber": 167
  },
  {
