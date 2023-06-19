@@ -826,6 +826,19 @@
   "sortNumber": 57
  },
  {
+  "title": "CBSE 4 Books Bundle (PCM) Question Bank Class 12 - ED10_04",
+  "img": "https:\/\/drive.google.com\/uc?id=1Z3y5SHgkwe21yRPfCe48dizSK9US9Kpm&export=download",
+  "categories": "Question Bank",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Bundle",
+  "type": "Question Bank",
+  "price": 2626,
+  "skuID": "ED10_04",
+  "subjectTitle": "Bundle (PCM)",
+  "sortNumber": 61
+ },
+ {
   "_id": "62d6858952588223b6c729b9",
   "title": "CBSE Mathematics Question Bank Class 12 - SP499",
   "img": "https:\/\/drive.google.com\/uc?id=1WKIQbFM-ajx61kUFe_JNibz8RCcRQNgJ&export=download",
@@ -883,6 +896,45 @@
   "price": 599,
   "skuID": "SP501",
   "subjectTitle": "Accountancy",
+  "sortNumber": 56
+ },
+ {
+  "title": "CBSE Applied Maths Question Bank Class 12 - SP504",
+  "img": "https:\/\/drive.google.com\/uc?id=1K3k10Cg3hEpjSdnOTfDTLkhvx4hRU4v5&export=download",
+  "categories": "Question Bank",
+  "board": "CBSE",
+  "class": "12",
+  "subject": "Applied Maths",
+  "type": "Question Bank",
+  "price": 549,
+  "skuID": "SP504",
+  "subjectTitle": "Applied Maths",
+  "sortNumber": 56
+ },
+ {
+  "title": "CBSE Psychology Question Bank Class 12 - SP505",
+  "img": "https:\/\/drive.google.com\/uc?id=1NZS6O5s_S_ssYPO2n5vZS0Awen6tFREz&export=download",
+  "categories": "Question Bank",
+  "board": "CBSE",
+  "class": "12",
+  "subject": "Psychology",
+  "type": "Question Bank",
+  "price": 269,
+  "skuID": "SP505",
+  "subjectTitle": "Psychology",
+  "sortNumber": 56
+ },
+ {
+  "title": "CBSE Business Studies Question Bank Class 12 - SP502",
+  "img": "https:\/\/drive.google.com\/uc?id=1ioZjWz4h4yP2_smYsaNPTX4cCz_b-BOc&export=download",
+  "categories": "Question Bank",
+  "board": "CBSE",
+  "class": "12",
+  "subject": "Business Studies",
+  "type": "Question Bank",
+  "price": 399,
+  "skuID": "SP502",
+  "subjectTitle": "Business Studies",
   "sortNumber": 56
  },
  {
@@ -1287,7 +1339,7 @@
  {
   "_id": "39",
   "title": "NEET 21 Years Solved Papers All Subjects Entrance Exam NEET - EB030",
-  "img": " https://drive.google.com/uc?id=12x0IOACPxu5nOdF6ibMdNPZrYTK4ZwVS&export=download",
+  "img": " https:\/\/drive.google.com\/uc?id=12x0IOACPxu5nOdF6ibMdNPZrYTK4ZwVS&export=download",
   "categories": "Entrance Exam",
   "board": "NEET",
   "class": "NEET",
@@ -1332,7 +1384,7 @@
  {
   "_id": "42",
   "title": "NEET Chemistry Solved paper NEET - EB023",
-  "img": " https://drive.google.com/uc?id=1TbYEgeKJp7gv1vAEf3kj90EraQmWMogU&export=download",
+  "img": " https:\/\/drive.google.com\/uc?id=1TbYEgeKJp7gv1vAEf3kj90EraQmWMogU&export=download",
   "categories": "Entrance Exam",
   "board": "NEET",
   "class": "NEET",
@@ -1347,7 +1399,7 @@
  {
   "_id": "43",
   "title": "NEET Physics Solved paper NEET - EB022",
-  "img": " https://drive.google.com/uc?id=1s7Jj-lCtGS4tNYWCIWHxAbSwUePJL3HJ&export=download",
+  "img": " https:\/\/drive.google.com\/uc?id=1s7Jj-lCtGS4tNYWCIWHxAbSwUePJL3HJ&export=download",
   "categories": "Entrance Exam",
   "board": "NEET",
   "class": "NEET",
@@ -1362,7 +1414,7 @@
  {
   "_id": "44",
   "title": "NEET Biology Solved paper NEET - EB021",
-  "img": " https://drive.google.com/uc?id=19BUuN5tmhgEZmtKz3QgvoXcIUkQM-Nlv&export=download",
+  "img": " https:\/\/drive.google.com\/uc?id=19BUuN5tmhgEZmtKz3QgvoXcIUkQM-Nlv&export=download",
   "categories": "Entrance Exam",
   "board": "NEET",
   "class": "NEET",
@@ -1377,7 +1429,7 @@
  {
   "_id": "45",
   "title": "NEET Bundle Solved paper NEET - EB024",
-  "img": " https://drive.google.com/uc?id=19Gq9j_bHSzEgHVCUSsSA_WexS8yOWdey&export=download",
+  "img": " https:\/\/drive.google.com\/uc?id=19Gq9j_bHSzEgHVCUSsSA_WexS8yOWdey&export=download",
   "categories": "Entrance Exam",
   "board": "NEET",
   "class": "NEET",
