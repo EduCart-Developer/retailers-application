@@ -1280,23 +1280,6 @@
   "sortNumber": 86
  },
  {
-  "_id": "632079763d730db635cdf2ea",
-  "title": "ICSE English Guide Book Class 10 - SP390",
-  "img": "https:\/\/drive.google.com\/uc?id=1NMIbQc8iWGKbTduNbRGVnUJQ1JSILFLS&export=download",
-  "categories": "Guide Book",
-  "board": "ICSE",
-  "class": "Class 10",
-  "subject": "English",
-  "type": "Guide Book",
-  "price": 349,
-  "skuID": "SP390",
-  "subjectTitle": "English",
-  "createdAt": "2022-09-13T12:37:10.883Z",
-  "updatedAt": "2022-09-13T12:37:10.883Z",
-  "__v": 0,
-  "sortNumber": 84
- },
- {
   "_id": "632079ee3d730db635cdf2ec",
   "title": "ICSE Geography Guide Book Class 10 - SP393",
   "img": "https:\/\/drive.google.com\/uc?id=1qgvxEA3PpGYLvgYWLBW7YqaVD7bdzBt7&export=download",
