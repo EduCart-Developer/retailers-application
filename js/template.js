@@ -10,7 +10,7 @@ if(user == null)
 const clientName = user.name;
 const clientAddr = user.address;
 const date = new Date().toISOString().replace('-', '/').split('T')[0].replace('-', '/');
-let discount = 40;
+let discount = 32;
 if(user.discount != null)
     discount = user.discount;
 
@@ -109,7 +109,7 @@ document.getElementById("downloadBtn")
         document.getElementById("downloadBtn").style.display = "none";
         localStorage.clear();
         sessionStorage.clear();
-        if(discount != 40)
+        if(discount != 32)
             window.location.href = "/books.html";
         else
             window.location.href = "/index.html";
