@@ -11,7 +11,7 @@ if(user == null)
 
 const clientName = user.name;
 const clientAddr = user.address;
-let discount = 40;
+let discount = 32;
 if(user.discount != null)
     discount = user.discount;
 
