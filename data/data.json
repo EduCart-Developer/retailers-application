@@ -840,6 +840,58 @@
   "sortNumber": 185
  },
  {
+  "title": "CBSE Science Sample Paper Class 10 - SP553",
+  "img": "https:\/\/drive.google.com\/uc?id=18YyHhqhXI-Cxjcy_6ygXRcEuWHoSATYk&export=download",
+  "categories": "Sample Paper",
+  "board": "CBSE",
+  "class": "10",
+  "subject": "Science",
+  "type": "Sample Paper",
+  "price": 349,
+  "skuID": "SP553",
+  "subjectTitle": "Science",
+  "sortNumber": 193
+ },
+ {
+  "title": "CBSE Mathematics Sample Paper Class 10 - SP554",
+  "img": "https:\/\/drive.google.com\/uc?id=1IPd2WxPqy8lIio3dudlOvsUPsVhWtLoZ&export=download",
+  "categories": "Sample Paper",
+  "board": "CBSE",
+  "class": "10",
+  "subject": "Mathematics",
+  "type": "Sample Paper",
+  "price": 349,
+  "skuID": "SP554",
+  "subjectTitle": "Mathematics",
+  "sortNumber": 192
+ },
+ {
+  "title": "CBSE Social Science Sample Paper Class 10 - SP559",
+  "img": "https:\/\/drive.google.com\/uc?id=1SSEUlpFRXuMCcY44XFcfDuftTdC-Y0vt&export=download",
+  "categories": "Sample Paper",
+  "board": "CBSE",
+  "class": "10",
+  "subject": "Social Science",
+  "type": "Sample Paper",
+  "price": 349,
+  "skuID": "SP559",
+  "subjectTitle": "Social Science",
+  "sortNumber": 191
+ },
+ {
+  "title": "CBSE English Sample Paper Class 10 - SP556",
+  "img": "https:\/\/drive.google.com\/uc?id=14upScAD_SdFzkMrmdCRE40BL242eivMM&export=download",
+  "categories": "Sample Paper",
+  "board": "CBSE",
+  "class": "10",
+  "subject": "English",
+  "type": "Sample Paper",
+  "price": 349,
+  "skuID": "SP556",
+  "subjectTitle": "English",
+  "sortNumber": 190
+ },
+ {
   "_id": "62d6846152588223b6c729b1",
   "title": "CBSE Physics Question Bank Class 12 - SP496",
   "img": "https:\/\/drive.google.com\/uc?id=1sX-fjLDRrFU2f23rN_XL5xoxT36dxndI&export=download",
