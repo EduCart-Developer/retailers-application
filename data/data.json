@@ -852,7 +852,7 @@
   "subjectTitle": "Bundle",
   "sortNumber": 185
  },
-{
+ {
   "_id": "90",
   "title": "CBSE Science Sample Paper Class 10 - SP553",
   "img": "https:\/\/drive.google.com\/uc?id=18YyHhqhXI-Cxjcy_6ygXRcEuWHoSATYk&export=download",
@@ -870,7 +870,7 @@
   "sortNumber": 193
  },
  {
-  "title": "CBSE Mathematics Sample Paper Class 10 - SP554",
+  "title": "CBSE Mathematics Standard Sample Paper Class 10 - SP554",
   "img": "https:\/\/drive.google.com\/uc?id=1IPd2WxPqy8lIio3dudlOvsUPsVhWtLoZ&export=download",
   "categories": "Sample Papers",
   "board": "CBSE",
@@ -880,6 +880,19 @@
   "price": 349,
   "skuID": "SP554",
   "subjectTitle": "Mathematics (Standard)",
+  "sortNumber": 192
+ },
+ {
+  "title": "CBSE Mathematics Basic Sample Paper Class 10 - SP555",
+  "img": "https:\/\/drive.google.com\/uc?id=1SMw9-LqN8Ht170fe37nG95dsnJ2X5L4N&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": "10",
+  "subject": "Mathematics",
+  "type": "Sample Papers",
+  "price": 329,
+  "skuID": "SP555",
+  "subjectTitle": "Mathematics (Basic)",
   "sortNumber": 192
  },
  {
