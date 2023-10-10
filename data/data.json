@@ -853,6 +853,45 @@
   "sortNumber": 185
  },
  {
+  "title": "CBSE Mathematics Standard Sample Paper Class 9 - SP578",
+  "img": "https:\/\/drive.google.com\/uc?id=1LWAPxPfn2xS8Zut7zAyaSWTwmwGZw0Qq&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": 9,
+  "subject": "Mathematics",
+  "type": "Sample Papers",
+  "price": 249,
+  "skuID": "SP578",
+  "subjectTitle": "Mathematics",
+  "sortNumber": 207
+ },
+ {
+  "title": "CBSE Science Sample Paper Class 9 - SP577",
+  "img": "https:\/\/drive.google.com\/uc?id=1SYF81gV_UW8oxjDCp7id3gIN_dvA5DUi&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": 9,
+  "subject": "Science",
+  "type": "Sample Papers",
+  "price": 249,
+  "skuID": "SP577",
+  "subjectTitle": "Science",
+  "sortNumber": 208
+ },
+ {
+  "title": "CBSE English Sample Paper Class 9 - SP579",
+  "img": "https:\/\/drive.google.com\/uc?id=18itzGQTEOyB1oTQ5JOQeem9vowkvmwLP&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": 9,
+  "subject": "English",
+  "type": "Sample Papers",
+  "price": 249,
+  "skuID": "SP579",
+  "subjectTitle": "English",
+  "sortNumber": 206
+ },
+ {
   "_id": "90",
   "title": "CBSE Science Sample Paper Class 10 - SP553",
   "img": "https:\/\/drive.google.com\/uc?id=18YyHhqhXI-Cxjcy_6ygXRcEuWHoSATYk&export=download",
@@ -1024,6 +1063,34 @@
   "skuID": "SP566",
   "subjectTitle": "Mathematics",
   "sortNumber": 203
+ },
+ {
+  "title": "CBSE Business Studies Sample Paper Class 12 - SP570",
+  "img": "https:\/\/drive.google.com\/uc?id=1pfJ3W26hoOzxlw9enNKxxl-fjXxMduPS&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Business Studies",
+  "type": "Sample Papers",
+  "price": 319,
+  "skuID": "SP570",
+  "subjectTitle": "Business Studies",
+  "__v": 0,
+  "sortNumber": 199
+ },
+ {
+  "title": "CBSE Economics Sample Paper Class 12 - SP571",
+  "img": "https:\/\/drive.google.com\/uc?id=1YoWlSocSqDvmUUAu1Lumrb_64yO_2dTz&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Economics",
+  "type": "Sample Papers",
+  "price": 349,
+  "skuID": "SP571",
+  "subjectTitle": "Economics",
+  "__v": 0,
+  "sortNumber": 199
  },
  {
   "title": "CBSE English core Sample Paper Class 12 - SP567",
