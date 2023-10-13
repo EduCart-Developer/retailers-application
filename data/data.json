@@ -892,6 +892,19 @@
   "sortNumber": 206
  },
  {
+  "title": "CBSE Bundle Science Maths English SST Sample Paper Class 10 - SP600",
+  "img": "https:\/\/drive.google.com\/uc?id=1TZ_9Y1Zw8sa94sDG33co9mvfKE9rXR29&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": 10,
+  "subject": "Bundle",
+  "type": "Sample Papers",
+  "price": 1396,
+  "skuID": "SP600",
+  "subjectTitle": "Bundle",
+  "sortNumber": 195
+ },
+ {
   "_id": "90",
   "title": "CBSE Science Sample Paper Class 10 - SP553",
   "img": "https:\/\/drive.google.com\/uc?id=18YyHhqhXI-Cxjcy_6ygXRcEuWHoSATYk&export=download",
@@ -1000,6 +1013,19 @@
   "sortNumber": 187
  },
  {
+  "title": "CBSE Information Technology Sample Paper Class 10 - SP560",
+  "img": "https:\/\/drive.google.com\/uc?id=1mnkJZIvufb-PHith01vu79wO4xJHR1cU&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": "10",
+  "subject": "Information Technology",
+  "type": "Sample Papers",
+  "price": 229,
+  "skuID": "SP560",
+  "subjectTitle": "Information Technology",
+  "sortNumber": 187
+ },
+ {
   "title": "CBSE Sanskrit Sample Paper Class 10 - SP561",
   "img": "https:\/\/drive.google.com\/uc?id=1sW7bq2nRaQDjSQMpyvIdMYi9W8e1UpFX&export=download",
   "categories": "Sample Papers",
@@ -1091,6 +1117,58 @@
   "subjectTitle": "Economics",
   "__v": 0,
   "sortNumber": 199
+ },
+ {
+  "title": "CBSE Physical Education Sample Paper Class 12 - SP572",
+  "img": "https:\/\/drive.google.com\/uc?id=13EbXck8WaOi_fVFiE7BJWbNiI_UzjZ-R&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Physical Education",
+  "type": "Sample Papers",
+  "price": 299,
+  "skuID": "SP572",
+  "subjectTitle": "Physical Education",
+  "sortNumber": 199
+ },
+ {
+  "title": "CBSE Psychology Sample Paper Class 12 - SP573",
+  "img": "https:\/\/drive.google.com\/uc?id=11w89bcLcSAD2Syi5KjjWjhbBP2oRD_Gm&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Psychology",
+  "type": "Sample Papers",
+  "price": 249,
+  "skuID": "SP573",
+  "subjectTitle": "Psychology",
+  "sortNumber": 199
+ },
+ {
+  "title": "CBSE Applied Maths Sample Paper Class 12 - SP599",
+  "img": "https:\/\/drive.google.com\/uc?id=1eh6jVp_zZu7evNrs9ukWtS1EcpLCv8se&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Applied Maths",
+  "type": "Sample Papers",
+  "price": 299,
+  "skuID": "SP599",
+  "subjectTitle": "Applied Maths",
+  "sortNumber": 199
+ },
+ {
+  "title": "CBSE Bundle (PCME) Sample Paper Class 12 - SP601",
+  "img": "https:\/\/drive.google.com\/uc?id=1xw0wFPGkWncsSuSBCIHpJbPaTWpD-nzS&export=download",
+  "categories": "Sample Papers",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Bundle",
+  "type": "Sample Papers",
+  "price": 1566,
+  "skuID": "SP601",
+  "subjectTitle": "Bundle",
+  "sortNumber": 205
  },
  {
   "title": "CBSE English core Sample Paper Class 12 - SP567",
