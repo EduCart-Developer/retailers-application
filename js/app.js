@@ -376,11 +376,18 @@ function removeProduct(element) {
     // console.log(bookArr);
     
     let removedBook = document.getElementById(titleDelete);
-    // console.log(removedBook);
+
+     if (removedBook.children[5] && removedBook.children[5].children[0]) {
     removedBook.children[5].children[0].innerText = "ADD";
     removedBook.children[5].children[0].classList.add("btn-primary");
     removedBook.children[5].children[0].classList.remove("btn-success");
-    removedBook.children[4].children[1].children[0].value="";
+    removedBook.children[4].children[1].children[0].value = "";
+     }
+    // console.log(removedBook);
+    // removedBook.children[5].children[0].innerText = "ADD";
+    // removedBook.children[5].children[0].classList.add("btn-primary");
+    // removedBook.children[5].children[0].classList.remove("btn-success");
+    // removedBook.children[4].children[1].children[0].value="";
     sessionStorage.setItem("books",JSON.stringify(bookArr));
     showCart();
 }
