@@ -26,7 +26,7 @@ function showBooks(data)
     data.forEach((book) => {
             // console.log(book);
             html += `
-            <div id="${book._id}" class="row productRow my-3" style="padding:0 2px;">
+            <div id="${book.skuID}" class="row productRow my-3" style="padding:0 2px;">
             <div class="col-2" style="padding:0;">
                 <img src="${book.img}" alt="${book.title}" width="90%"/>
             </div>
