@@ -1,7 +1,7 @@
 [
  {
   "title": "CBSE Chemistry Sample Paper Class 12 - SP593",
-  "img": "https://drive.google.com/uc?id=1LKmu4PuEcckIhcb5g_0TjgJXnSwnI2uW&export=download",
+  "img": "https:\/\/drive.google.com\/uc?id=1LKmu4PuEcckIhcb5g_0TjgJXnSwnI2uW&export=download",
   "categories": "Solved Papers",
   "board": "CBSE",
   "class": 12,
@@ -1027,6 +1027,7 @@
  },
  {
   "title": "NEET Abhyaas 24 Mock Test Papers Final Booklets - Full Syllabus & Unitwise - EB053",
+  "img": "https:\/\/drive.google.com\/uc?id=1DsDNAmhrAMn8t2DnW5gavoz_3nqYWZDg&export=download",
   "categories": "Entrance Exam",
   "board": "NEET",
   "class": "NEET",
@@ -1128,6 +1129,18 @@
   "sortNumber": 128,
   "__v": 0,
   "_id": "42"
+ },
+ {
+  "title": "NEET Biology Solved paper NEET - EB021N",
+  "categories": "Entrance Exam",
+  "board": "NEET",
+  "class": "NEET",
+  "subject": "Biology",
+  "type": "Entrance Exam",
+  "price": 729,
+  "skuID": "EB021N",
+  "subjectTitle": "Solved paper",
+  "sortNumber": 128
  },
  {
   "title": "NEET ABHYAAS Unit-wise Entrance Exam NEET - EB019",
