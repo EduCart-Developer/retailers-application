@@ -28,7 +28,7 @@ function showBooks(data)
             html += `
             <div id="${book.skuID}" class="row productRow my-3" style="padding:0 2px;">
             <div class="col-2" style="padding:0;">
-                <img src="${book.img}" alt="${book.title}" width="90%"/>
+                <img src="https://order-educartbook-images.pages.dev/books/${book.skuID}.webp" alt="${book.title}" width="90%"/>
             </div>
             <div class="col-3" style="padding-left:-4px;">
                 <div class="row" style="display:none; visibility:hidden;">${book.title}</div>
