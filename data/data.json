@@ -2098,41 +2098,5 @@
   "createdAt": "2022-06-30T10:17:33.874Z",
   "updatedAt": "2022-06-30T10:17:33.874Z",
   "desc": " "
- },
- {
-  "title": "Up Board Social Science Textbook Class 9 - SP291N",
-  "img": "https:\/\/drive.google.com\/uc?id=1t0HWMT6uht-HqHLch3e_-XqZoxZE5ecF&export=download",
-  "categories": "Textbook",
-  "board": "Up Board",
-  "class": "9",
-  "subject": "Social Science",
-  "type": "Textbook",
-  "price": 249,
-  "skuID": "SP291N",
-  "subjectTitle": "Social Science",
-  "sortNumber": 2,
-  "__v": 0,
-  "_id": "62bd747c35b369c0b2277000",
-  "createdAt": "2022-06-30T10:01:32.886Z",
-  "updatedAt": "2022-06-30T10:01:32.886Z",
-  "desc": " "
- },
- {
-  "title": "Up Board English Textbook Class 9 - SP290N",
-  "img": "https:\/\/drive.google.com\/uc?id=1AEmZGPtT_nEAcTO_e__rY9Z4mD3oBxly&export=download",
-  "categories": "Textbook",
-  "board": "Up Board",
-  "class": "9",
-  "subject": "English",
-  "type": "Textbook",
-  "price": 269,
-  "skuID": "SP290N",
-  "subjectTitle": "English",
-  "sortNumber": 1,
-  "__v": 0,
-  "_id": "62bd71ee35b369c0b2276ff3",
-  "createdAt": "2022-06-30T09:50:38.266Z",
-  "updatedAt": "2022-06-30T09:50:38.266Z",
-  "desc": " "
  }
 ]
