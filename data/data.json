@@ -1086,6 +1086,42 @@
   "_id": "46"
  },
  {
+  "title": "CBSE All Subjects (PCME) Final Revision Class 12 - SP624",
+  "categories": "All Types",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "All Subject",
+  "type": "All Types",
+  "price": 799,
+  "skuID": "SP624",
+  "subjectTitle": "Final Revision (PCME)",
+  "sortNumber": 246
+ },
+ {
+  "title": "CBSE All Subjects (PCBE) Final Revision Class 10 - SP625",
+  "categories": "All Types",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "All Subject",
+  "type": "All Types",
+  "price": 829,
+  "skuID": "SP625",
+  "subjectTitle": "Final Revision (PCBE)",
+  "sortNumber": 247
+ },
+ {
+  "title": "CBSE All Subjects Commerce Final Revision Class 10 - SP626",
+  "categories": "All Types",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "All Subject",
+  "type": "All Types",
+  "price": 829,
+  "skuID": "SP626",
+  "subjectTitle": "Final Revision (Commerce)",
+  "sortNumber": 248
+ },
+ {
   "title": "NEET Bundle Solved paper NEET - EB024",
   "img": " https:\/\/drive.google.com\/uc?id=19Gq9j_bHSzEgHVCUSsSA_WexS8yOWdey&export=download",
   "categories": "Entrance Exam",
