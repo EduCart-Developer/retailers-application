@@ -813,7 +813,7 @@
   "sortNumber": 165
  },
  {
-  "title": "CUET Science (PCB) Mock Papers Entrance Exam CUET - EB065",
+  "title": "CUET Science (PCB) CBSE Mock Papers Entrance Exam CUET - EB065",
   "categories": "Entrance Exam",
   "board": "CUET",
   "class": "CUET",
@@ -821,7 +821,19 @@
   "type": "Entrance Exam",
   "price": 529,
   "skuID": "EB065",
-  "subjectTitle": "Science PCB Mock Papers",
+  "subjectTitle": "CBSE Science PCB Mock Papers",
+  "sortNumber": 165
+ },
+ {
+  "title": "CUET Science (PCB) ICSE Mock Papers Entrance Exam CUET - EB061",
+  "categories": "Entrance Exam",
+  "board": "CUET",
+  "class": "CUET",
+  "subject": "Science PCB",
+  "type": "Entrance Exam",
+  "price": 599,
+  "skuID": "EB061",
+  "subjectTitle": "ICSE Science PCB Mock Papers",
   "sortNumber": 165
  },
  {
@@ -845,8 +857,32 @@
   "type": "Entrance Exam",
   "price": 529,
   "skuID": "EB064",
-  "subjectTitle": "Science PCM Mock Papers",
+  "subjectTitle": "CBSE Science PCM Mock Papers",
   "sortNumber": 165
+ },
+ {
+  "title": "CUET Science (PCM) ICSE Mock Papers Entrance Exam CUET - EB070",
+  "categories": "Entrance Exam",
+  "board": "CUET",
+  "class": "CUET",
+  "subject": "Science PCM",
+  "type": "Entrance Exam",
+  "price": 599,
+  "skuID": "EB070",
+  "subjectTitle": "ICSE Science PCM Mock Papers",
+  "sortNumber": 165
+ },
+ {
+  "title": "CUET English Mock Papers Entrance Exam CUET - EB070",
+  "categories": "Entrance Exam",
+  "board": "CUET",
+  "class": "CUET",
+  "subject": "English",
+  "type": "Entrance Exam",
+  "price": 249,
+  "skuID": "EB078",
+  "subjectTitle": "English Mock Papers",
+  "sortNumber": 164
  },
  {
   "title": "CUET Political Science Final Revision Section II Entrance Exam CUET - EB028N",
