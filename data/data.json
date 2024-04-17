@@ -573,7 +573,7 @@
   "type": "Question Bank",
   "price": 1596,
   "skuID": "SP596",
-  "subjectTitle": "Bundle",
+  "subjectTitle": "Bundle (One Shot)",
   "sortNumber": 312
  },
  {
@@ -585,7 +585,7 @@
   "type": "Question Bank",
   "price": 399,
   "skuID": "SP691",
-  "subjectTitle": "Science",
+  "subjectTitle": "Science (One Shot)",
   "sortNumber": 310
  },
  {
@@ -597,7 +597,7 @@
   "type": "Question Bank",
   "price": 399,
   "skuID": "SP692",
-  "subjectTitle": "Mathematics",
+  "subjectTitle": "Mathematics (One Shot)",
   "sortNumber": 309
  },
  {
@@ -609,7 +609,7 @@
   "type": "Question Bank",
   "price": 399,
   "skuID": "SP694",
-  "subjectTitle": "English",
+  "subjectTitle": "English (One Shot)",
   "sortNumber": 307
  },
  {
@@ -621,7 +621,7 @@
   "type": "Question Bank",
   "price": 399,
   "skuID": "SP693",
-  "subjectTitle": "Social Science",
+  "subjectTitle": "Social Science (One Shot)",
   "sortNumber": 308
  },
  {
