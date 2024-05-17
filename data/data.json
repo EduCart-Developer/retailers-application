@@ -84,7 +84,7 @@
   "type": "Question Bank",
   "price": 699,
   "skuID": "SP646",
-  "subjectTitle": "Mathematics (Hindi Medium) Ganit",
+  "subjectTitle": "Mathematics",
   "sortNumber": 292,
   "__v": 0,
   "_id": "62c939783800f9881b5ea54b",
@@ -92,7 +92,7 @@
   "updatedAt": "2022-07-09T08:16:56.308Z"
  },
  {
-  "title": "CBSE Mathematics (Ganit) Question 2025 Bank Class 10 - SP663",
+  "title": "CBSE Mathematics (Ganit) (Hindi Medium) Question 2025 Bank Class 10 - SP663",
   "categories": "Question Bank",
   "board": "CBSE",
   "class": 10,
@@ -100,7 +100,7 @@
   "type": "Question Bank",
   "price": 529,
   "skuID": "SP663",
-  "subjectTitle": "Mathematics",
+  "subjectTitle": "Mathematics (Hindi Medium) Ganit",
   "sortNumber": 292,
   "__v": 0
  },
