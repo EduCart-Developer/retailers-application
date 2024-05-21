@@ -946,5 +946,89 @@
   "subjectTitle": "English",
   "sortNumber": 6,
   "__v": 0
+ },
+ {
+  "title": "NEET PHYSICS 36 Years Solved Papers 2024 - EB022N",
+  "categories": "Entrance Exam",
+  "board": "NEET",
+  "class": "NEET",
+  "subject": "Physics",
+  "type": "Entrance Exam",
+  "price": 529,
+  "skuID": "EB022N",
+  "subjectTitle": "NEET PHYSICS (36 Solved Paper)",
+  "sortNumber": 6
+ },
+ {
+  "title": "NEET CHEMISTRY 36 Years Solved Papers 2024 - EB023N",
+  "categories": "Entrance Exam",
+  "board": "NEET",
+  "class": "NEET",
+  "subject": "Chemistry",
+  "type": "Entrance Exam",
+  "price": 529,
+  "skuID": "EB023N",
+  "subjectTitle": "NEET CHEMISTRY (36 Solved Paper)",
+  "sortNumber": 6
+ },
+ {
+  "title": "NEET BIOLOGY 36 Years Solved Papers 2024 - EB021N",
+  "categories": "Entrance Exam",
+  "board": "NEET",
+  "class": "NEET",
+  "subject": "Biology",
+  "type": "Entrance Exam",
+  "price": 729,
+  "skuID": "EB021N",
+  "subjectTitle": "NEET BIOLOGY (36 Solved Paper)",
+  "sortNumber": 6
+ },
+ {
+  "title": "NEET BIOLOGY ONE SHOT (QB) - EB052",
+  "categories": "Entrance Exam",
+  "board": "NEET",
+  "class": "NEET",
+  "subject": "Biology",
+  "type": "Entrance Exam",
+  "price": 549,
+  "skuID": "EB052",
+  "subjectTitle": "NEET BIOLOGY (One Shot Question Bank) ",
+  "sortNumber": 6
+ },
+ {
+  "title": "NEET 2024 Combined Mock Papers - EB053",
+  "categories": "Entrance Exam",
+  "board": "NEET",
+  "class": "NEET",
+  "subject": "Multiple Subjects",
+  "type": "Mock Papers",
+  "price": 1099,
+  "skuID": "EB053",
+  "subjectTitle": "NEET Combined Mock Papers",
+  "sortNumber": 6
+ },
+ {
+  "title": "NEET 2024 Unit-wise Mock Papers - EB054",
+  "categories": "Entrance Exam",
+  "board": "NEET",
+  "class": "NEET",
+  "subject": "Multiple Subjects",
+  "type": "Mock Papers",
+  "price": 599,
+  "skuID": "EB054",
+  "subjectTitle": "NEET Unit-wise Mock Papers",
+  "sortNumber": 6
+ },
+ {
+  "title": "NEET 2024 Full Mock Papers - EB055",
+  "categories": "Entrance Exam",
+  "board": "NEET",
+  "class": "NEET",
+  "subject": "Multiple Subjects",
+  "type": "Mock Papers",
+  "price": 599,
+  "skuID": "EB055",
+  "subjectTitle": "NEET Full Mock Papers",
+  "sortNumber": 6
  }
 ]
