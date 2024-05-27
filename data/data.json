@@ -602,6 +602,30 @@
   "sortNumber": 56
  },
  {
+  "title": "NCERT Mathematics NCERT Exemplar Class 12 - SP619",
+  "categories": "NCERT Exemplar",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Mathematics",
+  "type": "NCERT Exemplar",
+  "price": 329,
+  "skuID": "SP619",
+  "subjectTitle": "Mathematics",
+  "sortNumber": 19
+ },
+ {
+  "title": "NCERT Physics NCERT Exemplar Class 12 - SP616",
+  "categories": "NCERT Exemplar",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Physics",
+  "type": "NCERT Exemplar",
+  "price": 299,
+  "skuID": "SP616",
+  "subjectTitle": "Physics",
+  "sortNumber": 20
+ },
+ {
   "title": "NCERT Mathematics NCERT Exemplar Class 10 - SP110N",
   "categories": "NCERT Exemplar",
   "board": "CBSE",
