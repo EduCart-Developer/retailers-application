@@ -36,6 +36,18 @@
   "sortNumber": 309
  },
  {
+  "title": "CBSE Mathematics Basic One -Shot Question Bank Class 10 - SP731",
+  "categories": "Question Bank",
+  "board": "CBSE",
+  "class": 10,
+  "subject": "Mathematics",
+  "type": "One Shot QB",
+  "price": 399,
+  "skuID": "SP731",
+  "subjectTitle": "Mathematics Basic (One Shot)",
+  "sortNumber": 309
+ },
+ {
   "title": "CBSE English One -Shot Question Bank Class 10 - SP694",
   "categories": "Question Bank",
   "board": "CBSE",
@@ -424,6 +436,18 @@
   "skuID": "SP709",
   "subjectTitle": "Mathematics (One Shot)",
   "sortNumber": 81
+ },
+ {
+  "title": "CBSE English One Shot Question Bank Class 9 - SP711",
+  "categories": "Question Bank",
+  "board": "CBSE",
+  "class": 9,
+  "subject": "Science",
+  "type": "One Shot QB",
+  "price": 329,
+  "skuID": "SP711",
+  "subjectTitle": "English (One Shot)",
+  "sortNumber": 79
  },
  {
   "title": "CBSE Science Question Bank Class 9 - SP686",
