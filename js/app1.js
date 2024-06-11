@@ -138,7 +138,7 @@ let subArr = [
     ["Science","Mathematics","English","Hindi","Social Science"],
     ["Science","Mathematics","English","Hindi","Social Science","Computer","Sanskrit","Bundle","Physics","Biology","Chemistry"],
     ["Physics","Chemistry","Biology","Mathematics","English"],
-    ["Physics","Chemistry","Biology","Mathematics","English","Accoutancy","Business Studies","Economics","Physical Education","Psychology","Bundle"],
+    ["Physics","Chemistry","Biology","Mathematics","English","Accountancy","Business Studies","Economics","Physical Education","Psychology","Bundle"],
     ["Physics","Chemistry","Biology"],
     ["Physics","Chemistry","Biology","Mathematics","English","Hindi","General Test","Accountancy","Business Studies","Economics"]
 ]
