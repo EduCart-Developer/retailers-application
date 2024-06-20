@@ -221,6 +221,30 @@
   "updatedAt": "2022-07-09T08:30:37.578Z"
  },
  {
+  "title": "ICSE English Language One Shot Question Bank Class 10 - SP728",
+  "categories": "Question Bank",
+  "board": "ICSE",
+  "class": 10,
+  "subject": "English Language",
+  "type": "One Shot QB",
+  "price": 229,
+  "skuID": "SP728",
+  "subjectTitle": "English Language (One Shot)",
+  "sortNumber": 82
+ },
+ {
+  "title": "ICSE Physics One Shot Question Bank Class 10 - SP717",
+  "categories": "Question Bank",
+  "board": "ICSE",
+  "class": 10,
+  "subject": "Physics",
+  "type": "One Shot QB",
+  "price": 329,
+  "skuID": "SP717",
+  "subjectTitle": "Physics (One Shot)",
+  "sortNumber": 81
+ },
+ {
   "title": "ICSE Chemistry One Shot Question Bank Class 10 - SP718",
   "categories": "Question Bank",
   "board": "ICSE",
@@ -555,6 +579,30 @@
   "_id": "62e4eb4494766bd77dff2dc5",
   "createdAt": "2022-07-30T08:26:44.481Z",
   "updatedAt": "2022-07-30T08:26:44.481Z"
+ },
+ {
+  "title": "CBSE English core One -Shot Question Bank Class 12 - SP700",
+  "categories": "Question Bank",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "English core",
+  "type": "One Shot QB",
+  "price": 399,
+  "skuID": "SP700",
+  "subjectTitle": "English Core (One Shot)",
+  "sortNumber": 61
+ },
+ {
+  "title": "CBSE Mathematics One -Shot Question Bank Class 12 - SP699",
+  "categories": "Question Bank",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Mathematics",
+  "type": "One Shot QB",
+  "price": 429,
+  "skuID": "SP699",
+  "subjectTitle": "Mathematics (One Shot)",
+  "sortNumber": 62
  },
  {
   "title": "CBSE Mathematics Question Bank Class 12 - SP655",
