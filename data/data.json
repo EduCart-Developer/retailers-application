@@ -1235,7 +1235,7 @@
   "sortNumber": 1
  },
  {
-  "title": "CBSE Class 12 Test Yourself Booklet 2024 - PM084",
+  "title": "CBSE Class 12 Test Yourself Booklet (PCME) 2024 - PM084",
   "categories": "All Types",
   "board": "CBSE",
   "class": 12,
@@ -1243,7 +1243,31 @@
   "type": "All Types",
   "price": 0,
   "skuID": "PM084",
-  "subjectTitle": "Class 12 Test Yourself Booklet",
+  "subjectTitle": "Class 12 Test Yourself Booklet (PCME) ",
+  "sortNumber": 1
+ },
+  {
+  "title": "CBSE Class 12 Test Yourself Booklet (Commerce) 2024 - PM086",
+  "categories": "All Types",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Multiple Subjects",
+  "type": "All Types",
+  "price": 0,
+  "skuID": "PM086",
+  "subjectTitle": "Class 12 Test Yourself Booklet (Commerce) ",
+  "sortNumber": 1
+ },
+   {
+  "title": "CBSE Class 12 Test Yourself Booklet (Arts/Humanities) 2024 - PM087",
+  "categories": "All Types",
+  "board": "CBSE",
+  "class": 12,
+  "subject": "Multiple Subjects",
+  "type": "All Types",
+  "price": 0,
+  "skuID": "PM087",
+  "subjectTitle": "Class 12 Test Yourself Booklet (Arts/Humanities) ",
   "sortNumber": 1
  },
  {
