@@ -53,7 +53,7 @@ function showBooks(data)
                 </form>
             </div>
             <div class="col-1">
-                <button class="addBook btn-sm btn-primary book-btn" id="${book.id}">Add</button>
+                <button class="addBook btn-sm btn-primary book-btn" id="${book.skuID}">Add</button>
             </div>
         </div>
         `;
