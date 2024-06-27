@@ -20,6 +20,7 @@ function showBooks(data)
 {
     let divBook = document.getElementById("books");
     let html = "";
+    divBook.innerHTML = html;
     data.sort((a,b) => {
         return (b.sortNumber - a.sortNumber);
     });
