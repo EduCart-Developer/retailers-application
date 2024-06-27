@@ -472,7 +472,7 @@ const addBtnOnLoad = ()=>{
     {
         for (let index = 0; index < bookArr.length; index++)
         {
-            let addBook = document.getElementById(bookArr[index].skuID);
+            let addBook = document.getElementById(bookArr[index].id);
             addBook.children[5].children[0].innerText = "Added";
             addBook.children[5].children[0].classList.add("btn-success");
             addBook.children[5].children[0].classList.remove("btn-primary");    
