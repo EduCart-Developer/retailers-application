@@ -527,22 +527,7 @@
         "createdAt": "",
         "updatedAt": ""
     },
-    {
-        "title": "CBSE English Core Question Bank Class 11 - SP684",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "11",
-        "subject": "English",
-        "type": "Question Bank",
-        "price": "449",
-        "skuID": "SP684",
-        "subjectTitle": "English Core",
-        "sortNumber": "74",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
+    
     {
         "title": "CBSE Mathematics Question Bank Class 11 - SP683",
         "categories": "Question Bank",
@@ -574,22 +559,6 @@
         "_id": "62ece7f748170de8f62f09ad",
         "createdAt": "2022-08-05T09:50:47.706Z",
         "updatedAt": "2022-08-05T09:50:47.706Z"
-    },
-    {
-        "title": "CBSE Chemistry Question Bank Class 11 - SP681",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "11",
-        "subject": "Chemistry",
-        "type": "Question Bank",
-        "price": "549",
-        "skuID": "SP681",
-        "subjectTitle": "Chemistry",
-        "sortNumber": "72",
-        "__v": "0",
-        "_id": "62ece83948170de8f62f09af",
-        "createdAt": "2022-08-05T09:51:53.535Z",
-        "updatedAt": "2022-08-05T09:51:53.535Z"
     },
     {
         "title": "CBSE Biology Question Bank Class 11 - SP682",
@@ -1017,22 +986,6 @@
         "price": "549",
         "skuID": "SP658",
         "subjectTitle": "Business Studies",
-        "sortNumber": "56",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
-    {
-        "title": "CBSE Economics Question Bank Class 12 - SP659",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "12",
-        "subject": "Economics",
-        "type": "Question Bank",
-        "price": "499",
-        "skuID": "SP659",
-        "subjectTitle": "Economics",
         "sortNumber": "56",
         "__v": "",
         "_id": "",
