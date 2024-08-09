@@ -81,6 +81,22 @@
     "updatedAt": ""
 },
 {
+        "title": "CBSE Class 10 English Language and Literature (Hindi Medium) Question Bank Class 10 - SP666",
+        "categories": "Question Bank",
+        "board": "CBSE",
+        "class": "10",
+        "subject": "English",
+        "type": "Question Bank",
+        "price": "699",
+        "skuID": "SP666",
+        "subjectTitle": "English",
+        "sortNumber": "68",
+        "__v": "",
+        "_id": "",
+        "createdAt": "",
+        "updatedAt": ""
+    },
+{
     "title": "CBSE Social Science (Samajik Vigyan) Question Bank Class 10 - SP665",
     "categories": "Question Bank",
     "board": "CBSE",
@@ -815,6 +831,22 @@
         "_id": "62d6862f52588223b6c729bb",
         "createdAt": "2022-07-19T10:23:43.575Z",
         "updatedAt": "2022-07-19T10:23:43.575Z"
+    },
+    {
+        "title": "CBSE Economics Question Bank Class 12 - SP659",
+        "categories": "Question Bank",
+        "board": "CBSE",
+        "class": "12",
+        "subject": "Economics",
+        "type": "Question Bank",
+        "price": "499",
+        "skuID": "SP659",
+        "subjectTitle": "Economics",
+        "sortNumber": "56",
+        "__v": "",
+        "_id": "",
+        "createdAt": "",
+        "updatedAt": ""
     },
     {
         "title": "CBSE Business Studies Question Bank Class 12 - SP658",
