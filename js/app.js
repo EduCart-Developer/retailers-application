@@ -128,20 +128,48 @@ function btnAddEvent() {
 // Books search filter
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("searchInput");
+
     // Add event listener to search input
     searchInput.addEventListener("input", function () {
-        const query = searchInput.value.toLowerCase();
+        const query = searchInput.value.toLowerCase().trim();
         filterBooks(query);
     });
 });
+
 function filterBooks(query) {
     const booksContainer = document.getElementById("books");
     const books = booksContainer.getElementsByClassName("productRow"); // Select all product rows
 
+    // Regular expression to match "class" followed by a number (e.g., "class 10")
+    const classPattern = /class \d+/g;
+
+    // Find all occurrences of "class [number]" in the query and treat them as single units
+    const classMatches = query.match(classPattern) || [];
+    
+    // Remove "class [number]" matches from the query string
+    let queryWithoutClassMatches = query.replace(classPattern, "").trim();
+
+    // Split the remaining query into individual words
+    const otherWords = queryWithoutClassMatches.split(" ").filter(word => word.length > 0);
+
+    // Combine "class [number]" matches with other words
+    const queryWords = [...classMatches, ...otherWords];
+
     // Loop through all book items and hide those that don't match the search query
     Array.from(books).forEach(function (book) {
         const title = book.querySelector(".book-title").textContent.toLowerCase();
-        if (title.includes(query)) {
+
+        // Check if the title contains each word from the query
+        let matches = true;
+        for (const word of queryWords) {
+            if (!title.includes(word)) {
+                matches = false;
+                break;
+            }
+        }
+
+        // Display or hide the book based on the matches
+        if (matches) {
             book.style.display = ""; // Show book
         } else {
             book.style.display = "none"; // Hide book
