@@ -126,6 +126,31 @@ function btnAddEvent() {
     });
 }
 
+// Books search filter
+document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("searchInput");
+    // Add event listener to search input
+    searchInput.addEventListener("input", function () {
+        const query = searchInput.value.toLowerCase();
+        filterBooks(query);
+    });
+});
+function filterBooks(query) {
+    const booksContainer = document.getElementById("books");
+    const books = booksContainer.getElementsByClassName("productRow"); // Select all product rows
+
+    // Loop through all book items and hide those that don't match the search query
+    Array.from(books).forEach(function (book) {
+        const title = book.querySelector(".book-title").textContent.toLowerCase();
+        if (title.includes(query)) {
+            book.style.display = ""; // Show book
+        } else {
+            book.style.display = "none"; // Hide book
+        }
+    });
+}
+
+// Book dropdown filters
 
 let filteredBooks;
 let selectClass = "All";
