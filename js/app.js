@@ -27,35 +27,34 @@ function showBooks(data)
     data.forEach((book) => {
             // console.log(book);
             html += `
-            <div id="${book.skuID}" class="row productRow my-3" style="padding:0 2px;">
-            <div class="col-2" style="padding:0;">
-                <img src="https://order-educartbook-images.pages.dev/books/${book.skuID}.webp" alt="${book.title}" width="90%"/>
+            <div id="${book.skuID}" class="row productRow my-3 book-item" style="padding:0 2px;">
+                <div class="col-2" style="padding:0;">
+                    <img src="https://order-educartbook-images.pages.dev/books/${book.skuID}.webp" alt="${book.title}" width="90%"/>
+                </div>
+                <div class="col-3" style="padding-left:-4px;">
+                    <div class="row book-title" style="display:none; visibility:hidden;">${book.title}</div> <!-- Hidden title for search -->
+                    <div class="row book-subject">${book.subjectTitle}</div>
+                    <div class="row book-type">(${book.type})</div>
+                    <div class="row book-class">${book.class==="NEET" || book.class === "CUET" ? book.class:"Class " + book.class}</div>
+                </div>
+                <div class="col-2">
+                    <div class="row book-code-head"><b style="padding:0;">Code</b></div>
+                    <div class="row book-code">${book.skuID}</div>
+                </div>
+                <div class="col-2">
+                    <div class="row book-price-head"><b style="padding:0;">Price</b></div>
+                    <div class="row book-price" >${book.price}</div>
+                </div>
+                <div class="col-2" style="padding:0">
+                    <div class="row" style="margin-bottom:10px;"><b style="padding-left:10px;">Qty</b></div>
+                    <form class="row" action="" class="bookQuantity" style="max-width:80%">
+                        <input type="number" style="height:18px;padding:0;text-align:center;font-size:11px;">
+                    </form>
+                </div>
+                <div class="col-1">
+                    <button class="addBook btn-sm btn-primary book-btn" id="${book.skuID}">Add</button>
+                </div>
             </div>
-            <div class="col-3" style="padding-left:-4px;">
-                <div class="row" style="display:none; visibility:hidden;">${book.title}</div>
-                <div class="row book-subject">${book.subjectTitle}</div>
-                <div class="row book-type">(${book.type})</div>
-                <div class="row book-class">${book.class==="NEET" || book.class === "CUET" ? book.class:"Class " + book.class}</div>
-                <!--<div class="row" style = "font-weight:600;overflow:hidden;"> CODE - ${book.skuID} </div>-->
-            </div>
-            <div class="col-2">
-                <div class="row book-code-head"><b style="padding:0;">Code</b></div>
-                <div class="row book-code">${book.skuID}</div>
-            </div>
-            <div class="col-2">
-                <div class="row book-price-head"><b style="padding:0;">Price</b></div>
-                <div class="row book-price" >${book.price}</div>
-            </div>
-            <div class="col-2" style="padding:0">
-            <div class="row" style="margin-bottom:10px;"><b style="padding-left:10px;">Qty</b></div>
-                <form class = "row" action="" class="bookQuantity" style="max-width:80%">
-                    <input type="number" style="height:18px;padding:0;text-align:center;font-size:11px;">
-                </form>
-            </div>
-            <div class="col-1">
-                <button class="addBook btn-sm btn-primary book-btn" id="${book.skuID}">Add</button>
-            </div>
-        </div>
         `;
         });
         divBook.innerHTML = html;
