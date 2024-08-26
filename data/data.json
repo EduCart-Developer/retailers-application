@@ -1,4 +1,53 @@
 [
+
+     {
+    "title": "CBSE Mathematics Sample Paper Class 9 - SP758",
+    "categories": "Sample Papers",
+    "board": "CBSE",
+    "class": "9",
+    "subject": "Mathematics",
+    "type": "Sample Papers",
+    "price": "299",
+    "skuID": "SP758",
+    "subjectTitle": "Mathematics",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+{
+    "title": "CBSE Science Sample Paper Class 9 - SP757",
+    "categories": "Sample Papers",
+    "board": "CBSE",
+    "class": "9",
+    "subject": "Science",
+    "type": "Sample Papers",
+    "price": "299",
+    "skuID": "SP757",
+    "subjectTitle": "Science",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+{
+    "title": "CBSE SST Sample Paper Class 9 - SP762",
+    "categories": "Sample Papers",
+    "board": "CBSE",
+    "class": "9",
+    "subject": "Social Science",
+    "type": "Sample Papers",
+    "price": "299",
+    "skuID": "SP762",
+    "subjectTitle": "SST",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
      {
         "title": "CBSE Economics Question Bank Class 12 - SP659",
         "categories": "Question Bank",
