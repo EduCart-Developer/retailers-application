@@ -28,35 +28,34 @@ function showBooks(data)
     data.forEach((book) => {
             // console.log(book);
             html += `
-            <div id="${book._id}" class="row productRow my-3" style="padding:0 2px;">
-            <div class="col-2" style="padding:0;">
-                <img src="https://order-educartbook-images.pages.dev/books/${book.skuID}.webp" alt="${book.title}" width="90%"/>
+           <div id="${book.skuID}" class="row productRow my-3 book-item" style="padding:0 2px;">
+                <div class="col-2" style="padding:0;">
+                    <img src="https://order-educartbook-images.pages.dev/books/${book.skuID}.webp" alt="${book.title}" width="90%"/>
+                </div>
+                <div class="col-3" style="padding-left:-4px;">
+                    <div class="row book-title" style="display:none; visibility:hidden;">${book.title}</div> <!-- Hidden title for search -->
+                    <div class="row book-subject">${book.subjectTitle}</div>
+                    <div class="row book-type">(${book.type})</div>
+                    <div class="row book-class">${book.class==="NEET" || book.class === "CUET" ? book.class:"Class " + book.class}</div>
+                </div>
+                <div class="col-2">
+                    <div class="row book-code-head"><b style="padding:0;">Code</b></div>
+                    <div class="row book-code">${book.skuID}</div>
+                </div>
+                <div class="col-2">
+                    <div class="row book-price-head"><b style="padding:0;">Price</b></div>
+                    <div class="row book-price" >${book.price}</div>
+                </div>
+                <div class="col-2" style="padding:0">
+                    <div class="row" style="margin-bottom:10px;"><b style="padding-left:10px;">Qty</b></div>
+                    <form class="row" action="" class="bookQuantity" style="max-width:80%">
+                        <input type="number" style="height:18px;padding:0;text-align:center;font-size:11px;">
+                    </form>
+                </div>
+                <div class="col-1">
+                    <button class="addBook btn-sm btn-primary book-btn" id="${book.skuID}">Add</button>
+                </div>
             </div>
-            <div class="col-3" style="padding-left:-4px;">
-                <div class="row" style="display:none; visibility:hidden;">${book.title}</div>
-                <div class="row book-subject">${book.subjectTitle}</div>
-                <div class="row book-type">(${book.type})</div>
-                <div class="row book-class">${book.class==="NEET" || book.class === "CUET" ? book.class:"Class " + book.class}</div>
-                <!--<div class="row" style = "font-weight:600;overflow:hidden;"> CODE - ${book.skuID} </div>-->
-            </div>
-            <div class="col-2">
-                <div class="row book-code-head"><b style="padding:0;">Code</b></div>
-                <div class="row book-code">${book.skuID}</div>
-            </div>
-            <div class="col-2">
-                <div class="row book-price-head"><b style="padding:0;">Price</b></div>
-                <div class="row book-price" >${book.price}</div>
-            </div>
-            <div class="col-2" style="padding:0">
-            <div class="row" style="margin-bottom:10px;"><b style="padding-left:10px;">Qty</b></div>
-                <form class = "row" action="" class="bookQuantity" style="max-width:80%">
-                    <input type="number" style="height:18px;padding:0;text-align:center;font-size:11px;">
-                </form>
-            </div>
-            <div class="col-1">
-                <button class="addBook btn-sm btn-primary book-btn" id="${book.skuID}">Add</button>
-            </div>
-        </div>
         `;
         });
         divBook.innerHTML = html;
@@ -124,6 +123,59 @@ function btnAddEvent() {
             sessionStorage.setItem("books", JSON.stringify(bookArr));
             showCart();
         });
+    });
+}
+
+// Books search function
+
+document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("searchInput");
+
+    // Add event listener to search input
+    searchInput.addEventListener("input", function () {
+        const query = searchInput.value.toLowerCase().trim();
+        filterBooksearch(query);
+    });
+});
+
+function filterBooksearch(query) {
+    const booksContainer = document.getElementById("books");
+    const books = booksContainer.getElementsByClassName("productRow"); // Select all product rows
+
+    // Regular expression to match "class" followed by a number (e.g., "class 10")
+    const classPattern = /class \d+/g;
+
+    // Find all occurrences of "class [number]" in the query and treat them as single units
+    const classMatches = query.match(classPattern) || [];
+    
+    // Remove "class [number]" matches from the query string
+    let queryWithoutClassMatches = query.replace(classPattern, "").trim();
+
+    // Split the remaining query into individual words
+    const otherWords = queryWithoutClassMatches.split(" ").filter(word => word.length > 0);
+
+    // Combine "class [number]" matches with other words
+    const queryWords = [...classMatches, ...otherWords];
+
+    // Loop through all book items and hide those that don't match the search query
+    Array.from(books).forEach(function (book) {
+        const title = book.querySelector(".book-title").textContent.toLowerCase();
+
+        // Check if the title contains each word from the query
+        let matches = true;
+        for (const word of queryWords) {
+            if (!title.includes(word)) {
+                matches = false;
+                break;
+            }
+        }
+
+        // Display or hide the book based on the matches
+        if (matches) {
+            book.style.display = ""; // Show book
+        } else {
+            book.style.display = "none"; // Hide book
+        }
     });
 }
 
