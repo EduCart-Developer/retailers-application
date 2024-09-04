@@ -1,5 +1,36 @@
 [
-
+     {
+    "title": "Class 10 ICSE 10 Year Solved Papers - SP705",
+    "categories": "Solved Paper",
+    "board": "ICSE",
+    "class": "10",
+    "subject": "All Subjects",
+    "type": "Solved Paper",
+    "price": "999",
+    "skuID": "SP705",
+    "subjectTitle": "All Subjects",
+    "sortNumber": "300",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+ {
+    "title": "CBSE English Sample Paper Class 10 - SP735",
+    "categories": "Sample Papers",
+    "board": "CBSE",
+    "class": "10",
+    "subject": "English",
+    "type": "Sample Papers",
+    "price": "459",
+    "skuID": "SP735",
+    "subjectTitle": "English",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
      {
     "title": "CBSE Mathematics Sample Paper Class 9 - SP758",
     "categories": "Sample Papers",
