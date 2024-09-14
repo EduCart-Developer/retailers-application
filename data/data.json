@@ -1,4 +1,36 @@
 [
+ {
+    "title": "CBSE Hindi A Sample Paper Class 9 - SP760",
+    "categories": "Sample Papers",
+    "board": "CBSE",
+    "class": "9",
+    "subject": "Hindi",
+    "type": "Sample Papers",
+    "price": "189",
+    "skuID": "SP760",
+    "subjectTitle": "Hindi A",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+ {
+    "title": "CBSE Hindi B Sample Paper Class 9 - SP761",
+    "categories": "Sample Papers",
+    "board": "CBSE",
+    "class": "9",
+    "subject": "Hindi",
+    "type": "Sample Papers",
+    "price": "169",
+    "skuID": "SP761",
+    "subjectTitle": "Hindi B",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
      {
     "title": "Class 10 ICSE 10 Year Solved Papers - SP705",
     "categories": "Solved Paper",
