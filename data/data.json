@@ -1,5 +1,37 @@
 [
     {
+    "title": "ICSE HCGE Combined Sample Paper Class 10 - SP769",
+    "categories": "Sample Papers",
+    "board": "ICSE",
+    "class": "10",
+    "subject": "All",
+    "type": "Sample Papers",
+    "price": "899",
+    "skuID": "SP769",
+    "subjectTitle": "HCGE Combined",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+    {
+    "title": "ICSE PCMB Combined Sample Paper Class 10 - SP768",
+    "categories": "Sample Papers",
+    "board": "ICSE",
+    "class": "10",
+    "subject": "All",
+    "type": "Sample Papers",
+    "price": "899",
+    "skuID": "SP768",
+    "subjectTitle": "PCMB Combined",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+    {
     "title": "CBSE Physics Sample Paper Class 11 - SP763",
     "categories": "Sample Papers",
     "board": "CBSE",
