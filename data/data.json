@@ -1,5 +1,37 @@
 [
     {
+    "title": "CBSE Biology Sample Paper Class 11 - SP765",
+    "categories": "Sample Papers",
+    "board": "CBSE",
+    "class": "11",
+    "subject": "Biology",
+    "type": "Sample Papers",
+    "price": "229",
+    "skuID": "SP765",
+    "subjectTitle": "Biology",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+    {
+    "title": "CBSE Chemistry Sample Paper Class 11 - SP764",
+    "categories": "Sample Papers",
+    "board": "CBSE",
+    "class": "11",
+    "subject": "Chemistry",
+    "type": "Sample Papers",
+    "price": "229",
+    "skuID": "SP764",
+    "subjectTitle": "Chemistry",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+    {
     "title": "ICSE HCGE Combined Sample Paper Class 10 - SP769",
     "categories": "Sample Papers",
     "board": "ICSE",
