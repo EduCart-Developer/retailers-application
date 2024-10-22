@@ -1,5 +1,37 @@
 [
      {
+    "title": "CBSE English Core Sample Paper Class 11 - SP767",
+    "categories": "Sample Papers",
+    "board": "CBSE",
+    "class": "11",
+    "subject": "English",
+    "type": "Sample Papers",
+    "price": "229",
+    "skuID": "SP767",
+    "subjectTitle": "English Core",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+     {
+    "title": "CBSE Psychology Sample Paper Class 12 - SP752",
+    "categories": "Sample Papers",
+    "board": "CBSE",
+    "class": "12",
+    "subject": "Psychology",
+    "type": "Sample Papers",
+    "price": "199",
+    "skuID": "SP752",
+    "subjectTitle": "Psychology",
+    "sortNumber": "312",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+     {
     "title": "CBSE History Sample Paper Class 12 - SP753",
     "categories": "Sample Papers",
     "board": "CBSE",
