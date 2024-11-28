@@ -640,57 +640,7 @@
     "createdAt": "",
     "updatedAt": ""
 },
-     {
-        "title": "CBSE Economics Question Bank Class 12 - SP659",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "12",
-        "subject": "Economics",
-        "type": "Question Bank",
-        "price": "499",
-        "skuID": "SP659",
-        "subjectTitle": "Economics",
-        "sortNumber": "60",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
-{
-        "title": "CBSE Business Studies Question Bank Class 12 - SP658",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "12",
-        "subject": "Business Studies",
-        "type": "Question Bank",
-        "price": "549",
-        "skuID": "SP658",
-        "subjectTitle": "Business Studies",
-        "sortNumber": "60",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
-
-{
-        "title": "CBSE Accountancy Question Bank Class 12 - SP657",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "12",
-        "subject": "Accountancy",
-        "type": "Question Bank",
-        "price": "649",
-        "skuID": "SP657",
-        "subjectTitle": "Accountancy",
-        "sortNumber": "60",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
-
-     
+    
      {
         "title": "CBSE Mathematics Standard Sample Paper Class 10 - SP733",
         "categories": "Sample Papers",
