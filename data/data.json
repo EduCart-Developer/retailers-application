@@ -2100,22 +2100,7 @@
         "createdAt": "",
         "updatedAt": ""
     },
-    {
-        "title": "NEET BIOLOGY ONE SHOT (QB) - EB052",
-        "categories": "Entrance Exam",
-        "board": "NEET",
-        "class": "NEET",
-        "subject": "Biology",
-        "type": "Entrance Exam",
-        "price": "549",
-        "skuID": "EB052",
-        "subjectTitle": "NEET BIOLOGY (One Shot Question Bank) ",
-        "sortNumber": "6",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
+   
     {
         "title": "NEET 2024 Combined Mock Papers - EB053",
         "categories": "Entrance Exam",
@@ -2132,38 +2117,7 @@
         "createdAt": "",
         "updatedAt": ""
     },
-    {
-        "title": "NEET 2024 Unit-wise Mock Papers - EB054",
-        "categories": "Entrance Exam",
-        "board": "NEET",
-        "class": "NEET",
-        "subject": "Multiple Subjects",
-        "type": "Mock Papers",
-        "price": "599",
-        "skuID": "EB054",
-        "subjectTitle": "NEET Unit-wise Mock Papers",
-        "sortNumber": "6",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
-    {
-        "title": "NEET 2024 Full Mock Papers - EB055",
-        "categories": "Entrance Exam",
-        "board": "NEET",
-        "class": "NEET",
-        "subject": "Multiple Subjects",
-        "type": "Mock Papers",
-        "price": "599",
-        "skuID": "EB055",
-        "subjectTitle": "NEET Full Mock Papers",
-        "sortNumber": "6",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
+    
     {
         "title": "CBSE Class 9 Test Yourself Booklet 2024 - PM085",
         "categories": "All Types",
