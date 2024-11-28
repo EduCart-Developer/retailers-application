@@ -787,22 +787,7 @@
         "createdAt": "",
         "updatedAt": ""
     },
-  {
-        "title": "CBSE Science Question Bank Class 9 - SP686",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "9",
-        "subject": "Science",
-        "type": "Question Bank",
-        "price": "529",
-        "skuID": "SP686",
-        "subjectTitle": "Science",
-        "sortNumber": "56",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
+  
 {
     "title": "CBSE Chemistry Question Bank Class 11 - SP681",
     "categories": "Question Bank",
