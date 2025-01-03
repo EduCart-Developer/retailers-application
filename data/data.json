@@ -1,11 +1,27 @@
 [
+    {
+    "title": "PRAYAS CBSE Class 10 Mock Papers- SP805",
+    "categories": "Prayas",
+    "board": "CBSE",
+    "class": "Class 10",
+    "subject": "All Subject",
+    "type": "Mock Papers",
+    "price": "499",
+    "skuID": "SP805",
+    "subjectTitle": "PRAYAS CBSE Class 10",
+    "sortNumber": "320",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
 {
     "title": "Educart Abhyaas 20 NEET Mock Papers- EB080",
     "categories": "Abhyaas",
     "board": "NEET",
     "class": "NEET",
     "subject": "All Subject",
-    "type": "Abhyaas",
+    "type": "Mock Papers",
     "price": "1299",
     "skuID": "EB080",
     "subjectTitle": "Educart Abhyaas 20 NEET Mock Papers",
