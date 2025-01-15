@@ -1,5 +1,52 @@
-[
-    
+[ 
+     {
+    "title": "PRAYAS CBSE Class 12 Accountancy, Business Studies, Economics and English Core Mock Papers- SP807",
+    "categories": "Prayas",
+    "board": "CBSE",
+    "class": "Class 12",
+    "subject": "All Subject",
+    "type": "Mock Papers",
+    "price": "499",
+    "skuID": "SP807",
+    "subjectTitle": "PRAYAS CBSE Class 12 (Commerce)",
+    "sortNumber": "320",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+    {
+    "title": "PRAYAS CBSE Class 12 Physics, Chemistry, Mathematics and English Mock Papers- SP806",
+    "categories": "Prayas",
+    "board": "CBSE",
+    "class": "Class 12",
+    "subject": "All Subject",
+    "type": "Mock Papers",
+    "price": "599",
+    "skuID": "SP806",
+    "subjectTitle": "PRAYAS CBSE Class 12 (PCM)",
+    "sortNumber": "320",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
+    {
+    "title": "PRAYAS CBSE Class 10 Mock Papers- SP805",
+    "categories": "Prayas",
+    "board": "CBSE",
+    "class": "Class 10",
+    "subject": "All Subject",
+    "type": "Mock Papers",
+    "price": "499",
+    "skuID": "SP805",
+    "subjectTitle": "PRAYAS CBSE Class 10",
+    "sortNumber": "320",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+},
 {
     "title": "Educart Abhyaas 20 NEET Mock Papers- EB080",
     "categories": "Abhyaas",
