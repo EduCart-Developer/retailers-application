@@ -79,22 +79,7 @@
     "createdAt": "",
     "updatedAt": ""
 },
-{
-    "title": "CBSE Class 10 Final Revision (Science, Maths Standard, Social Science & English) - SP786",
-    "categories": "Sample Papers",
-    "board": "CBSE",
-    "class": "10",
-    "subject": "All Subject",
-    "type": "Sample Papers",
-    "price": "799",
-    "skuID": "ots",
-    "subjectTitle": "Final Revision",
-    "sortNumber": "320",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-},
+
 {
     "title": "CBSE Class 10 Combined Most Likely Set (Science, Maths Standard, Social Science & English) - SP802",
     "categories": "Sample Papers",
@@ -512,22 +497,7 @@
     "createdAt": "",
     "updatedAt": ""
 },
-  {
-    "title": "CBSE Hindi B Sample Paper Class 10 -  SP737",
-    "categories": "Sample Papers",
-    "board": "CBSE",
-    "class": "10",
-    "subject": "Hindi",
-    "type": "Sample Papers",
-    "price": "229",
-    "skuID": "ots",
-    "subjectTitle": "Hindi B",
-    "sortNumber": "312",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-},
+  
   {
     "title": "CBSE English Communicative Sample Paper Class 10 -  SP770",
     "categories": "Sample Papers",
@@ -576,22 +546,7 @@
     "createdAt": "",
     "updatedAt": ""
 },
- {
-    "title": "CBSE Economics Sample Paper Class 12 - SP750",
-    "categories": "Sample Papers",
-    "board": "CBSE",
-    "class": "12",
-    "subject": "Economics",
-    "type": "Sample Papers",
-    "price": "249",
-    "skuID": "ots",
-    "subjectTitle": "Economics",
-    "sortNumber": "312",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-},
+ 
    {
     "title": "CBSE Physics Sample Paper Class 12 - SP742",
     "categories": "Sample Papers",
@@ -786,22 +741,7 @@
         "createdAt": "",
         "updatedAt": ""
     },
-    {
-        "title": "CBSE Bundle Science, Mathematics, Social Science & English One -Shot Question Bank Class 10 - SP596",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "10",
-        "subject": "Science",
-        "type": "One Shot QB",
-        "price": "1596",
-        "skuID": "ots",
-        "subjectTitle": "Bundle (One Shot)",
-        "sortNumber": "312",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
+   
   {
         "title": "CBSE Social Science Question Bank Class 9 - SP689",
         "categories": "Question Bank",
@@ -979,22 +919,7 @@
     "createdAt": "",
     "updatedAt": ""
 },
-    {
-        "title": "CBSE Science One -Shot Question Bank Class 10 - SP691",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "10",
-        "subject": "Science",
-        "type": "One Shot QB",
-        "price": "399",
-        "skuID": "ots",
-        "subjectTitle": "Science (One Shot)",
-        "sortNumber": "310",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
+   
     {
         "title": "CBSE Mathematics One -Shot Question Bank Class 10 - SP692",
         "categories": "Question Bank",
@@ -1038,23 +963,6 @@
         "skuID": "SP712",
         "subjectTitle": "English Communicative (One Shot)",
         "sortNumber": "307",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
-   
-    {
-        "title": "CBSE Social Science One -Shot Question Bank Class 10 - SP693",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "10",
-        "subject": "Social Science",
-        "type": "One Shot QB",
-        "price": "399",
-        "skuID": "ots",
-        "subjectTitle": "Social Science (One Shot)",
-        "sortNumber": "308",
         "__v": "",
         "_id": "",
         "createdAt": "",
