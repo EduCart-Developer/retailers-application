@@ -1,5 +1,21 @@
 [ 
-
+        
+{
+        "title": "CBSE Science Question Bank Class 9 - SP686",
+        "categories": "Question Bank",
+        "board": "CBSE",
+        "class": "9",
+        "subject": "Science",
+        "type": "Question Bank",
+        "price": "529",
+        "skuID": "SP686",
+        "subjectTitle": "Science",
+        "sortNumber": "300",
+        "__v": "",
+        "_id": "",
+        "createdAt": "",
+        "updatedAt": ""
+    },
 {
         "record": "",
         "title": "CBSE Science Question Bank Class 10 - SP808",
@@ -102,7 +118,7 @@
 },
     {
     "title": " NCERT Exemplar Class 10 Mathematics - SP773",
-    "categories": "Exemplar",
+    "categories": "NCERT Exemplar",
     "board": "NCERT",
     "class": "10",
     "subject": "Mathematics",
@@ -118,7 +134,7 @@
 },
     {
     "title": "NCERT Exemplar Class 10 Science - SP772",
-    "categories": "Exemplar",
+    "categories": "NCERT Exemplar",
     "board": "NCERT",
     "class": "10",
     "subject": "Science",
