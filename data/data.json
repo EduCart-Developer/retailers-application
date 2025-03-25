@@ -1,5 +1,36 @@
 [ 
-        
+        {
+        "title": "CUET Commerce Mock Paper - EB085",
+        "categories": "Mock Paper",
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "Commerce",
+        "type": "Mock Papers",
+        "price": "249",
+        "skuID": "EB085",
+        "subjectTitle": "Commerce",
+        "sortNumber": "360",
+        "__v": "",
+        "_id": "",
+        "createdAt": "",
+        "updatedAt": ""
+    },
+       {
+        "title": "CUET Humanities Mock Paper - EB084",
+        "categories": "Mock Paper",
+        "board": "CUET",
+        "class": "CUET",
+        "subject": "Humanities",
+        "type": "Mock Papers",
+        "price": "249",
+        "skuID": "EB084",
+        "subjectTitle": "Humanities",
+        "sortNumber": "360",
+        "__v": "",
+        "_id": "",
+        "createdAt": "",
+        "updatedAt": ""
+    },
 {
         "title": "CBSE Science Question Bank Class 9 - SP686",
         "categories": "Question Bank",
