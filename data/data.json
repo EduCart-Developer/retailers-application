@@ -1,5 +1,37 @@
 [
   {
+  "title": "CBSE Business Studies One Shot Question Bank Class 12 - SP852N",
+  "categories": "One Shot QB",
+  "board": "CBSE",
+  "class": "12",
+  "subject": "Business Studies",
+  "type": "One Shot QB",
+  "price": "349",
+  "skuID": "SP852N",
+  "subjectTitle": "Business Studies",
+  "sortNumber": "156",
+  "__v": "",
+  "_id": "",
+  "createdAt": "",
+  "updatedAt": ""
+},
+   {
+  "title": "CBSE Physics One Shot Question Bank Class 12 - SP846N",
+  "categories": "One Shot QB",
+  "board": "CBSE",
+  "class": "12",
+  "subject": "Physics",
+  "type": "One Shot QB",
+  "price": "499",
+  "skuID": "SP846N",
+  "subjectTitle": "Physics",
+  "sortNumber": "156",
+  "__v": "",
+  "_id": "",
+  "createdAt": "",
+  "updatedAt": ""
+},
+  {
   "title": "CBSE Accountancy One Shot Question Bank Class 12 - SP851N",
   "categories": "One Shot QB",
   "board": "CBSE",
