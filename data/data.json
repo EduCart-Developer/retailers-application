@@ -773,40 +773,8 @@
         "createdAt": "",
         "updatedAt": ""
     },
-     {
-        "record": "",
-        "title": "CBSE Class 12  Chemistry Core Solved Papers - SP879",
-        "categories": "Solved Papers",
-        "board": "CBSE",
-        "class": "12",
-        "subject": " Chemistry",
-        "type": "Solved Papers",
-        "price": "349",
-        "skuID": "SP879",
-        "subjectTitle": "Chemistry",
-        "sortNumber": "350",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
-     {
-        "record": "",
-        "title": "CBSE Class 12 English Core Solved Papers - SP881",
-        "categories": "Solved Papers",
-        "board": "CBSE",
-        "class": "12",
-        "subject": "English",
-        "type": "Solved Papers",
-        "price": "399",
-        "skuID": "SP881",
-        "subjectTitle": "English Core",
-        "sortNumber": "350",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
+     
+    
      {
         "record": "",
         "title": "CBSE Class 12 Mathematics Solved Papers - SP880",
