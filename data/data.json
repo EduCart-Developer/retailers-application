@@ -801,22 +801,7 @@
   "createdAt": "",
   "updatedAt": ""
 },
- {
-        "title": "CBSE Science Question Bank Class 9 - SP831",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "9",
-        "subject": "Science",
-        "type": "Question Bank",
-        "price": "529",
-        "skuID": "SP831",
-        "subjectTitle": "Science",
-        "sortNumber": "56",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
+
     {
         "title": "CBSE Mathematics Question Bank Class 9 - SP832",
         "categories": "Question Bank",
@@ -849,22 +834,7 @@
         "createdAt": "",
         "updatedAt": ""
     },
-    {
-        "title": "CBSE Social Science Question Bank Class 9 - SP834",
-        "categories": "Question Bank",
-        "board": "CBSE",
-        "class": "9",
-        "subject": "Social Science",
-        "type": "Question Bank",
-        "price": "599",
-        "skuID": "SP834",
-        "subjectTitle": "Social Science",
-        "sortNumber": "56",
-        "__v": "",
-        "_id": "",
-        "createdAt": "",
-        "updatedAt": ""
-    },
+    
  {
         "record": "",
         "title": "CBSE Accountancy Bank Class 12 - SP820N",
