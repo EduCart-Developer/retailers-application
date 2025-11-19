@@ -270,24 +270,7 @@
     "createdAt": "",
     "updatedAt": ""
   },
-{
-    "record": "",
-    "record.1": "",
-    "title": "CBSE Political Science Sample Question Paper Class 12 - SP935R",
-    "categories": "Sample Papers",
-    "board": "CBSE",
-    "class": "12",
-    "subject": "Political Science",
-    "type": "Sample Papers",
-    "price": "249",
-    "skuID": "SP935R",
-    "subjectTitle": "Political Science",
-    "sortNumber": "600",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
+
 {
     "record": "",
     "record.1": "",
@@ -603,7 +586,7 @@
   {
     "record": "",
     "record.1": "",
-    "title": "CBSE English Communication Sample Question Paper Class 10 - SP922",
+    "title": "CBSE English Communicative Sample Question Paper Class 10 - SP922",
     "categories": "Sample Papers",
     "board": "CBSE",
     "class": "10",
@@ -611,7 +594,7 @@
     "type": "Sample Papers",
     "price": "199",
     "skuID": "SP922",
-    "subjectTitle": "English Communication",
+    "subjectTitle": "English Communicative",
     "sortNumber": "500",
     "__v": "",
     "_id": "",
