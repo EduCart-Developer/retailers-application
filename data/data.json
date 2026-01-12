@@ -17,7 +17,42 @@
     "createdAt": "",
     "updatedAt": ""
   },
-
+  {
+    "record": "",
+    "record.1": "",
+    "title": "NCERT & CBSE Class 8 Social Science 2026  - SP962",
+    "categories": "Practice Book",
+    "board": "CBSE",
+    "class": "8",
+    "subject": "Social Science",
+    "type": "Practice Book",
+    "price": "299",
+    "skuID": "SP962",
+    "subjectTitle": "Social Science",
+    "sortNumber": "750",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+  },
+{
+    "record": "",
+    "record.1": "",
+    "title": "NCERT & CBSE Class 8 Science 2026  - SP961",
+    "categories": "Practice Book",
+    "board": "CBSE",
+    "class": "8",
+    "subject": "Science",
+    "type": "Practice Book",
+    "price": "399",
+    "skuID": "SP961",
+    "subjectTitle": "Science",
+    "sortNumber": "750",
+    "__v": "",
+    "_id": "",
+    "createdAt": "",
+    "updatedAt": ""
+  },
   {
     "record": "",
     "record.1": "",
