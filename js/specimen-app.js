@@ -2,6 +2,7 @@
 var booksItem ;
 var bookCount = document.getElementById('bookCount').innerText;
 // fetching the books from the database
+
 fetch("../data/data.json")
     .then(response => response.json())
     .then((data) => {
@@ -27,7 +28,7 @@ function showBooks(data)
     data.forEach((book) => {
             // console.log(book);
             html += `
-            <div id="${book.skuID}" class="row productRow my-3 book-item" style="padding:0 2px;">
+           <div id="${book.skuID}" class="row productRow my-3 book-item" style="padding:0 2px;">
                 <div class="col-2" style="padding:0;">
                     <img src="https://order-educartbook-images.pages.dev/books/${book.skuID}.webp" alt="${book.title}" width="90%"/>
                 </div>
@@ -125,18 +126,19 @@ function btnAddEvent() {
     });
 }
 
-// Books search filter
+// Books search function
+
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("searchInput");
 
     // Add event listener to search input
     searchInput.addEventListener("input", function () {
         const query = searchInput.value.toLowerCase().trim();
-        filterBooks(query);
+        filterBooksearch(query);
     });
 });
 
-function filterBooks(query) {
+function filterBooksearch(query) {
     const booksContainer = document.getElementById("books");
     const books = booksContainer.getElementsByClassName("productRow"); // Select all product rows
 
@@ -177,7 +179,6 @@ function filterBooks(query) {
     });
 }
 
-// Book dropdown filters
 
 let filteredBooks;
 let selectClass = "All";
@@ -429,42 +430,15 @@ function removeProduct(element) {
     // console.log(bookArr);
     
     let removedBook = document.getElementById(titleDelete);
-
-     if (removedBook.children[5] && removedBook.children[5].children[0]) {
+    // console.log(removedBook);
     removedBook.children[5].children[0].innerText = "ADD";
     removedBook.children[5].children[0].classList.add("btn-primary");
     removedBook.children[5].children[0].classList.remove("btn-success");
-    removedBook.children[4].children[1].children[0].value = "";
-     }
-    // console.log(removedBook);
-    // removedBook.children[5].children[0].innerText = "ADD";
-    // removedBook.children[5].children[0].classList.add("btn-primary");
-    // removedBook.children[5].children[0].classList.remove("btn-success");
-    // removedBook.children[4].children[1].children[0].value="";
+    removedBook.children[4].children[1].children[0].value="";
     sessionStorage.setItem("books",JSON.stringify(bookArr));
     showCart();
 }
 
-//Disabling invoice 
-function disableInvoice(e)
-{
-    e.children[0].href = "./specimen-checkout.html";
-    // let user = localStorage.getItem("User");
-    // if(user === null)
-    // {
-        
-    //     // console.log(e.children[0]);
-    //     // e.style.backgroundColor = "grey";
-    //     // document.getElementById("alertDiv").style.display = "inherit";
-    //     // alert("Please enter your details! Using 'Edit User Button'")
-    //     // e.preventDefault();
-    // }
-    // else
-    // {
-    //     e.children[0].href = "./invoice.html";
-    // }
-
-}
 
 function checkoutEmpty()
 {
@@ -494,8 +468,8 @@ function checkoutEmpty()
         <div id="product">
         </div>
             <div id="invoiceButton">
-                <button class="invoiceBtn btn btn-primary" onclick="disableInvoice(this)">
-                    <a href="./invoice2.html" style="text-decoration: none; color: white;">
+                <button class="invoiceBtn btn btn-primary">
+                    <a href="./specimen-checkout.html" style="text-decoration: none; color: white;">
                         Invoice 
                         <i class="fa fa-download" style="font-size:20px;padding-left:4px;"></i>
                     </a>
@@ -543,6 +517,5 @@ window.onload = ()=>{
         triggerCart();
     }
 }
-
 
 // API: https://educart-book-api.herokuapp.com/api/products

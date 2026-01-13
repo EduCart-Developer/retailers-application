@@ -3,7 +3,7 @@ let user = JSON.parse(localStorage.getItem("User"));
 
 // If the user is null alert the user and redirect
 if (user == null)
-    window.location.href = "/index.html";
+    window.location.href = "/specimen.html";
 
 // Storing all the variables to update in the invoice
 const clientName = user.name;
@@ -94,7 +94,7 @@ document.getElementById("downloadBtn").addEventListener('click', function () {
         localStorage.clear();
         sessionStorage.clear();
         if (discount != 32)
-            window.location.href = "/books.html";
+            window.location.href = "/specimen.html";
         else
             window.location.href = "/index.html";
     });
