@@ -205,13 +205,15 @@ function pickClass(value) {
     console.log(typeof(value));
     switch (value)
     {
-        case "8": selClass = subArr[0];break;
-        case "9": selClass = subArr[1];break;
-        case "10": selClass = subArr[2];break;
-        case "11": selClass = subArr[3];break;
-        case "12": selClass = subArr[4];break;
-        case "NEET": selClass = subArr[5];break;
-        case "CUET": selClass = subArr[6];break;
+        case "6": selClass = subArr[0];break;
+        case "7": selClass = subArr[1];break;
+        case "8": selClass = subArr[2];break;
+        case "9": selClass = subArr[3];break;
+        case "10": selClass = subArr[4];break;
+        case "11": selClass = subArr[5];break;
+        case "12": selClass = subArr[6];break;
+        case "NEET": selClass = subArr[7];break;
+        case "CUET": selClass = subArr[8];break;
         default: selClass = ["Mathematics","Science","Physics","Chemistry","Biology","Social Science","English","Hindi","Bundle","Accountancy","Economics","Computer","Sanskrit"];
     };
 
