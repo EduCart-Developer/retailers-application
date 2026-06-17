@@ -1259,44 +1259,7 @@
     "createdAt": "",
     "updatedAt": ""
   },
- 
-  {
-    "record": "",
-    "record.1": "",
-    "title": "CBSE Hindi A Question Bank Class 9 - SP1015",
-    "categories": "Question Bank",
-    "board": "CBSE",
-    "class": "9",
-    "subject": "Hindi",
-    "type": "Question Bank",
-    "price": "499",
-    "skuID": "SP1015",
-    "subjectTitle": "Hindi A",
-    "sortNumber": "956",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
-  {
-    "record": "",
-    "record.1": "",
-    "title": "CBSE Hindi b Question Bank Class 9 - SP1016",
-    "categories": "Question Bank",
-    "board": "CBSE",
-    "class": "9",
-    "subject": "Hindi",
-    "type": "Question Bank",
-    "price": "499",
-    "skuID": "SP1016",
-    "subjectTitle": "Hindi B",
-    "sortNumber": "956",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
-  {
+    {
     "record": "",
     "record.1": "",
     "title": "CBSE Class 10 Science One Shot Question Bank 2026-27 - SP1025N",
