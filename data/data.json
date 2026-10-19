@@ -648,42 +648,8 @@
     "createdAt": "",
     "updatedAt": ""
   },
-  {
-    "record": "",
-    "record.1": "",
-    "title": "CBSE Class 9 Mathematics Advanced Level Question Bank 2027 - SP2003N",
-    "categories": "Question Bank",
-    "board": "CBSE",
-    "class": "9",
-    "subject": "Mathematics",
-    "type": "Advanced Level QB",
-    "price": "229",
-    "skuID": "SP2003N",
-    "subjectTitle": "Mathematics",
-    "sortNumber": "",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
-  {
-    "record": "",
-    "record.1": "",
-    "title": "CBSE Class 9 Science Advanced Level Question Bank 2027 - SP2002N",
-    "categories": "Question Bank",
-    "board": "CBSE",
-    "class": "9",
-    "subject": "Science",
-    "type": "Advanced Level QB",
-    "price": "279",
-    "skuID": "SP2002N",
-    "subjectTitle": "Science",
-    "sortNumber": "",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
+  
+ 
     {
     "record": "",
     "record.1": "",
@@ -774,24 +740,7 @@
   "createdAt": "",
   "updatedAt": ""
 },
-    {
-    "record": "",
-    "record.1": "",
-    "title": "ICSE Class 10 10-Years Solved Papers (2016-2026) All Subjects for 2027 - SP1087N",
-    "categories": "Solved Papers",
-    "board": "ICSE",
-    "class": "10",
-    "subject": "All Subjects",
-    "type": "Solved Papers",
-    "price": "1099",
-    "skuID": "SP1087N",
-    "subjectTitle": "All Subjects",
-    "sortNumber": "",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
+    
   {
     "record": "",
     "record.1": "",
@@ -1027,24 +976,7 @@
     "createdAt": "",
     "updatedAt": ""
   },
-  {
-    "record": "",
-    "record.1": "",
-    "title": "CBSE Class 10 Information Technology One Shot Question Bank 2026-27 - SP1031N",
-    "categories": "One Shot QB",
-    "board": "CBSE",
-    "class": "10",
-    "subject": "Computer",
-    "type": "One Shot QB",
-    "price": "249",
-    "skuID": "SP1031N",
-    "subjectTitle": "Information Technology",
-    "sortNumber": "",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
+  
   {
     "record": "",
     "record.1": "",
@@ -1117,24 +1049,7 @@
     "createdAt": "",
     "updatedAt": ""
   },
-  {
-    "record": "",
-    "record.1": "",
-    "title": "CBSE Class 12 English Core Question Bank 2026-27 - SP1004N",
-    "categories": "Question Bank",
-    "board": "CBSE",
-    "class": "12",
-    "subject": "English Core",
-    "type": "Question Bank",
-    "price": "649",
-    "skuID": "SP1004N",
-    "subjectTitle": "English Core",
-    "sortNumber": "",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
+  
   {
     "record": "",
     "record.1": "",
@@ -1351,24 +1266,7 @@
     "createdAt": "",
     "updatedAt": ""
   },
-  {
-  "record": "",
-  "record.1": "",
-  "title": "CBSE Class 10 Hindi B Question Bank 2026-27 - SP998N",
-  "categories": "Question Bank",
-  "board": "CBSE",
-  "class": "10",
-  "subject": "Hindi",
-  "type": "Question Bank",
-  "price": "529",
-  "skuID": "SP998N",
-  "subjectTitle": "Hindi B",
-  "sortNumber": "",
-  "__v": "",
-  "_id": "",
-  "createdAt": "",
-  "updatedAt": ""
-},
+  
   {
   "record": "",
   "record.1": "",
@@ -1405,24 +1303,7 @@
     "createdAt": "",
     "updatedAt": ""
   },
-  {
-    "record": "",
-    "record.1": "",
-    "title": "CBSE Class 10 Maths Basic One Shot Question Bank 2026-27 - SP1027N",
-    "categories": "One Shot QB",
-    "board": "CBSE",
-    "class": "10",
-    "subject": "Mathematics",
-    "type": "One Shot QB",
-    "price": "349",
-    "skuID": "SP1027N",
-    "subjectTitle": "Mathematics",
-    "sortNumber": "",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
+  
   {
     "record": "",
     "record.1": "",
@@ -1585,24 +1466,7 @@
     "createdAt": "",
     "updatedAt": ""
   },
-  {
-    "record": "",
-    "record.1": "",
-    "title": "Question Bank Chemistry Class 11 2026-27 - SP1040",
-    "categories": "Question Bank",
-    "board": "CBSE",
-    "class": "11",
-    "subject": "Chemistry",
-    "type": "Question Bank",
-    "price": "599",
-    "skuID": "SP1040",
-    "subjectTitle": "Chemistry",
-    "sortNumber": "",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
+ 
   {
     "record": "",
     "record.1": "",
@@ -2165,24 +2029,7 @@
     "updatedAt": ""
   },
 
-  {
-    "record": "",
-    "record.1": "",
-    "title": "NCERT Exemplar Class 10 Mathematics 2026-27 - SP1036N",
-    "categories": "Exemplar",
-    "board": "CBSE",
-    "class": "10",
-    "subject": "Mathematics",
-    "type": "Exemplar",
-    "price": "249",
-    "skuID": "SP1036N",
-    "subjectTitle": "Mathematics",
-    "sortNumber": "600",
-    "__v": "",
-    "_id": "",
-    "createdAt": "",
-    "updatedAt": ""
-  },
+ 
   {
     "record": "",
     "record.1": "",
